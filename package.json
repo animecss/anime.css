@@ -1,0 +1,75 @@
+{
+  "name": "anime.css",
+  "version": "0.0.1",
+  "main": "anime.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/animecss/anime.css.git"
+  },
+  "author": {
+    "name": "Anime.css"
+  },
+  "homepage": "https://anime.github.io",
+  "license": "MIT",
+  "animeConfig": {
+    "prefix": "anime__"
+  },
+  "scripts": {
+    "start": "npm-run-all raw prod compat",
+    "compat": "npx postcss src/anime.css -o anime.compat.css --no-map --env compat",
+    "dev": "npx postcss src/anime.css -o anime.css --no-map --env development -w",
+    "raw": "npx postcss src/anime.css -o anime.css --no-map --env development",
+    "prod": "npx postcss src/anime.css -o anime.min.css --no-map --env production",
+    "format": "prettier --write \"**/*.{js,json,md,css}\"",
+    "precommit": "lint-staged",
+    "docs:library": "npx postcss src/anime.css -o ./docs/anime.min.css --no-map --env production",
+    "docs:pages": "node ./docs/index.js",
+    "docs": "npm-run-all docs:library docs:pages",
+    "version": "npm-run-all start docs && git add -A docs anime.css anime.min.css anime.compat.css",
+    "postversion": "git push && git push --tags"
+  },
+  "browserslist": [
+    "> 3%",
+    "last 2 versions"
+  ],
+  "style": "./anime.css",
+  "jspm": {
+    "main": "anime.css!",
+    "format": "global",
+    "directories": {
+      "lib": "./"
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.6",
+    "markdown-it": "^11.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0",
+    "postcss-header": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-prefixer": "^2.1.2",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.4"
+  },
+  "lint-staged": {
+    "*.{js,json,md,css}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm-run-all start precommit"
+    }
+  },
+  "files": [
+    "anime.compat.css",
+    "anime.min.css",
+    "anime.css",
+    "src/**/*.css"
+  ]
+}
