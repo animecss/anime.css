@@ -35,7 +35,7 @@ or add it directly to your webpage:
 
 ## Usage
 
-Add the class `anime__animated` to an element, along with many of the anime names that the `anime__` prefix:
+Add the class `anime__animated` to an element, along with many of the anime names that staring with the `anime__` prefix:
 
 ```html
 <img
@@ -44,14 +44,14 @@ Add the class `anime__animated` to an element, along with many of the anime name
 />
 ```
 
-## TODO
+## Anime Names
 
 * Fade In
-  * [x] Fade In
-  * [x] Fade In Down
-  * [x] Fade In Left
+  * [x] `anime__fadeIn`
+  * [x] `anime__fadeInDown`
+  * [x] `anime__fadeInLeft`
   * [ ] Fade In Left Big
-  * [x] Fade In Right
+  * [x] `anime__fadeInRight`
   * [ ] Fade In Right Big
   * [ ] Fade In Up
   * [ ] Fade In Up Big
