@@ -302,3 +302,37 @@
   -moz-animation-name:    fadeOutDown; /* Firefox */
   -o-animation-name:      fadeOutDown; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__fadeOutLeft {
+  animation-name:         fadeOutLeft; /* Internet Explorer / Edge */
+  -webkit-animation-name: fadeOutLeft; /* Chrome, Safari and iOS */
+  -moz-animation-name:    fadeOutLeft; /* Firefox */
+  -o-animation-name:      fadeOutLeft; /* Opera */
+}
