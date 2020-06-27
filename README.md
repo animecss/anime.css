@@ -50,40 +50,44 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [x] `anime__fadeIn`
   * [x] `anime__fadeInDown`
   * [x] `anime__fadeInLeft`
-  * [ ] Fade In Left Big
   * [x] `anime__fadeInRight`
+
+* Fade Out
+  * [x] `anime__fadeOut`
+  * [x] `anime__fadeOutDown`
+  * [x] `anime__fadeOutLeft`
+  * [x] `anime__fadeOutRight`
+  * [x] `anime__fadeOutUp`
+
+* Bounce In
+  * [x] `anime__bounceIn`
+  * [x] `anime__bounceInDown`
+  * [x] `anime__bounceInLeft`
+  * [x] `anime__bounceInRight`
+
+* Bounce Out
+  * [x] `anime__bounceOut`
+  * [x] `anime__bounceOutDown`
+  * [x] `anime__bounceOutLeft`
+  * [x] `anime__bounceOutRight`
+  * [x] `anime__bounceOutUp`
+
+<!--
+
+* TODO
+  * [ ] Fade Out Right Big
+  * [ ] Fade In Left Big
+  * [ ] Bounce
+  * [ ] Fade Out Up Big
+  * [ ] Fade Out Left Big
   * [ ] Fade In Right Big
   * [ ] Fade In Up
   * [ ] Fade In Up Big
-
-* Fade Out
-  * [x] Fade Out
-  * [x] Fade Out Down
-  * [x] Fade Out Left
-  * [ ] Fade Out Left Big
-  * [x] Fade Out Right
-  * [ ] Fade Out Right Big
-  * [x] Fade Out Up
-  * [ ] Fade Out Up Big
-
-* [ ] Fade Down Big
-
-* Bounce In
-  * [ ] Bounce
-  * [x] Bounce In
-  * [x] Bounce In Down
-  * [x] Bounce In Left
-  * [x] Bounce In Right
-
-* Bounce Out
+  * [ ] Fade Down Big
   * [ ] Bounce Up
-  * [x] Bounce Out
-  * [x] Bounce Out Down
-  * [x] Bounce Out Left
-  * [x] Bounce Out Right
-  * [x] Bounce Out Up
+  * [ ] Flash
 
-* [ ] Flash
+-->
 
 ## Inspired by
 
@@ -91,6 +95,16 @@ Huge thanks to:
 
 * [Chris Coyier](https://github.com/chriscoyier)
 * [Tutorials Point](https://www.tutorialspoint.com/css/css_animation.htm)
+
+## Contributing
+
+We'd love to have your helping hand on contributions to `Anime.css` by forking and sending a pull request!
+
+Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
+
+## License
+
+The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <!-- 
 
