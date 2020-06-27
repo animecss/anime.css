@@ -6,7 +6,7 @@
 
 # Anime.css
 
-A lightweight cross-browser CSS animations library.
+アニメ is a lightweight cross-browser CSS animations library.
 
 ## TODO
 
@@ -53,5 +53,5 @@ A lightweight cross-browser CSS animations library.
 
 Huge thanks to:
 
+* [Chris Coyier](https://github.com/chriscoyier)
 * [Tutorials Point](https://www.tutorialspoint.com/css/css_animation.htm)
-* [Chris Coyier](https://css-tricks.com/snippets/css/keyframe-animation-syntax)
