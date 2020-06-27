@@ -2,7 +2,7 @@
   ⭐️ If you like Anime.css, give it a star! ⭐️
 </p>
 
-<img src="https://github.com/animecss/anime.css/blob/master/anime.png" align="right" />
+<img src="https://github.com/animecss/anime.css/blob/master/static/images/anime.png" align="right" />
 
 # Anime.css
 
@@ -55,3 +55,22 @@ Huge thanks to:
 
 * [Chris Coyier](https://github.com/chriscoyier)
 * [Tutorials Point](https://www.tutorialspoint.com/css/css_animation.htm)
+
+<!-- 
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="anime.min.css"
+    />
+  </head>
+  <body>
+    <center style="margin-top: 20%;">
+      <h1 class="anime__animated anime__bounceOutUp">An animated element</h1>
+      <img src="anime.png" class="anime__animated anime__bounceOutUp" />
+    </center>
+  </body>
+</html>
+
+-->
