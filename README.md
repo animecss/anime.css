@@ -21,7 +21,7 @@ A lightweight cross-browser CSS animations library.
   * [ ] Fade In Up Big
 
 * Fade Out
-  * [ ] Fade Out
+  * [x] Fade Out
   * [ ] Fade Out Down
   * [ ] Fade Out Left
   * [ ] Fade Out Left Big

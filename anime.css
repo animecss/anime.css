@@ -240,3 +240,31 @@
   -moz-animation-name:    fadeInRight; /* Firefox */
   -o-animation-name:      fadeInRight; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__fadeOut {
+  animation-name:         fadeOut; /* Internet Explorer / Edge */
+  -webkit-animation-name: fadeOut; /* Chrome, Safari and iOS */
+  -moz-animation-name:    fadeOut; /* Firefox */
+  -o-animation-name:      fadeOut; /* Opera */
+}

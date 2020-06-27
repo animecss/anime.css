@@ -1,0 +1,50 @@
+/* Internet Explorer / Edge */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Chrome, Safari and iOS */
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Firefox */
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Opera */
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation-name:         fadeOut; /* Internet Explorer / Edge */
+  -webkit-animation-name: fadeOut; /* Chrome, Safari and iOS */
+  -moz-animation-name:    fadeOut; /* Firefox */
+  -o-animation-name:      fadeOut; /* Opera */
+}
