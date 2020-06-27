@@ -10,13 +10,13 @@
 
 ## Install
 
-`Anime.css` is available on npm. It can be installed with the following command:
+`Anime.css` is available on npm:
 
 ```
 npm install anime.css --save
 ```
 
-`Anime.css` is available on yarn as well. It can be installed with the following command:
+`Anime.css` is available on yarn as well:
 
 ```
 yarn add anime.css
