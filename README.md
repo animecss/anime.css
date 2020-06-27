@@ -8,6 +8,42 @@
 
 アニメ is a lightweight cross-browser CSS animations library.
 
+## Install
+
+`Anime.css` is available on npm. It can be installed with the following command:
+
+```
+npm install anime.css --save
+```
+
+`Anime.css` is available on yarn as well. It can be installed with the following command:
+
+```
+yarn add anime.css
+```
+
+or add it directly to your webpage:
+
+```
+<head>
+  <link
+    rel="stylesheet"
+    href="anime.min.css"
+  />
+</head>
+```
+
+## Usage
+
+Add the class `anime__animated` to an element, along with many of the anime names that the `anime__` prefix:
+
+```html
+<img
+  src="anime.png"
+  class="anime__animated anime__fadeIn"
+/>
+```
+
 ## TODO
 
 * Fade In
