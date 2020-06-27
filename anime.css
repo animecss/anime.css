@@ -612,3 +612,56 @@
   -moz-animation-name:    bounceInRight; /* Firefox */
   -o-animation-name:      bounceInRight; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes bounceOut {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  25% {
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+  }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+    transform: scale(.3);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes bounceOut {
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  25% {
+    -webkit-transform: scale(.95);
+  }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__bounceOut {
+  animation-name:         bounceOut; /* Internet Explorer / Edge */
+  -webkit-animation-name: bounceOut; /* Chrome, Safari and iOS */
+  -moz-animation-name:    bounceOut; /* Firefox */
+  -o-animation-name:      bounceOut; /* Opera */
+}
+

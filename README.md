@@ -40,7 +40,7 @@
   * [x] Bounce In Right
 
 * Bounce Out
-  * [ ] Bounce Out
+  * [x] Bounce Out
   * [ ] Bounce Out Down
   * [ ] Bounce Up
   * [ ] Bounce Out Left
