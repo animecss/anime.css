@@ -707,4 +707,46 @@
   -moz-animation-name:    bounceOutDown; /* Firefox */
   -o-animation-name:      bounceOutDown; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes bounceOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes bounceOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__bounceOutLeft {
+  animation-name:         bounceOutLeft; /* Internet Explorer / Edge */
+  -webkit-animation-name: bounceOutLeft; /* Chrome, Safari and iOS */
+  -moz-animation-name:    bounceOutLeft; /* Firefox */
+  -o-animation-name:      bounceOutLeft; /* Opera */
+}
