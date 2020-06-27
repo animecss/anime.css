@@ -172,3 +172,37 @@
   -moz-animation-name:    fadeInDown; /* Firefox */
   -o-animation-name:      fadeInDown; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__fadeInLeft {
+  animation-name:         fadeInLeft; /* Internet Explorer / Edge */
+  -webkit-animation-name: fadeInLeft; /* Chrome, Safari and iOS */
+  -moz-animation-name:    fadeInLeft; /* Firefox */
+  -o-animation-name:      fadeInLeft; /* Opera */
+}
