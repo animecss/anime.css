@@ -44,7 +44,7 @@ Add the class `anime__animated` to an element, along with many of the anime name
 />
 ```
 
-## Anime Names
+### Anime Names
 
 * Fade In
   * [x] `anime__fadeIn`
@@ -85,7 +85,34 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Fade In Up Big
   * [ ] Fade Down Big
   * [ ] Bounce Up
+
   * [ ] Flash
+  * [ ] Flip
+  * [ ] Flip In X
+  * [ ] Flip In Y
+  * [ ] Flip Out X
+  * [ ] Flip Out Y
+  * [ ] Hinge
+  * [ ] Light Speed In
+  * [ ] Light Speed Out
+  * [ ] Pulse
+  * [ ] Roll In
+  * [ ] Roll Out
+  * [ ] Rotate In Down Left
+  * [ ] Rotate In
+  * [ ] Rotate In Down Right
+  * [ ] Wobble
+  * [ ] Rotate In Up Left
+  * [ ] Rotate In Up Right
+  * [ ] Winggle
+  * [ ] Rotate Out
+  * [ ] Rotate Out Down Left
+  * [ ] Rotate Out Down Right
+  * [ ] Rotate Out Up Left
+  * [ ] Rotate Out Up Right
+  * [ ] Shake
+  * [ ] Swing
+  * [ ] Tada
 
 -->
 
