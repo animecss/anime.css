@@ -404,3 +404,55 @@
   -moz-animation-name:    fadeOutUp; /* Firefox */
   -o-animation-name:      fadeOutUp; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+    transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1; 
+    -webkit-transform: scale(1.05); 
+    transform: scale(1.05);
+  }
+
+  70% {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1; 
+    -webkit-transform: scale(1.05);
+  }
+
+  70% {
+    -webkit-transform: scale(.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__bounceIn {
+  animation-name:         bounceIn; /* Internet Explorer / Edge */
+  -webkit-animation-name: bounceIn; /* Chrome, Safari and iOS */
+  -moz-animation-name:    bounceIn; /* Firefox */
+  -o-animation-name:      bounceIn; /* Opera */
+}

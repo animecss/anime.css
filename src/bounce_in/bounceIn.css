@@ -1,0 +1,90 @@
+/* Internet Explorer / Edge */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1; 
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Chrome, Safari and iOS */
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1; 
+    -webkit-transform: scale(1.05);
+  }
+
+  70% {
+    -webkit-transform: scale(.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+/* Firefox */
+@-moz-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1; 
+    -moz-transform: scale(1.05);
+  }
+
+  70% {
+    -moz-transform: scale(.9);
+  }
+
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+
+/* Opera */
+@-o-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -o-transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1; 
+    -o-transform: scale(1.05);
+  }
+
+  70% {
+    -o-transform: scale(.9);
+  }
+
+  100% {
+    -o-transform: scale(1);
+  }
+}
+
+.bounceIn {
+  animation-name:         bounceIn; /* Internet Explorer / Edge */
+  -webkit-animation-name: bounceIn; /* Chrome, Safari and iOS */
+  -moz-animation-name:    bounceIn; /* Firefox */
+  -o-animation-name:      bounceIn; /* Opera */
+}

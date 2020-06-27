@@ -32,9 +32,9 @@
 
 * [ ] Fade Down Big
 
-* Bounce
+* Bounce In
   * [ ] Bounce
-  * [ ] Bounce In
+  * [x] Bounce In
   * [ ] Bounce In Down
   * [ ] Bounce In Left
   * [ ] Bounce In Right
