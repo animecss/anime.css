@@ -1,4 +1,12 @@
+<p align="center">
+  ⭐️ If you like Anime.css, give it a star! ⭐️
+</p>
+
+<img src="https://github.com/animecss/anime.css/blob/master/anime.png" align="right" />
+
 # Anime.css
+
+A lightweight cross-browser CSS animations library.
 
 ## TODO
 
