@@ -336,3 +336,71 @@
   -moz-animation-name:    fadeOutLeft; /* Firefox */
   -o-animation-name:      fadeOutLeft; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__fadeOutRight {
+  animation-name:         fadeOutRight; /* Internet Explorer / Edge */
+  -webkit-animation-name: fadeOutRight; /* Chrome, Safari and iOS */
+  -moz-animation-name:    fadeOutRight; /* Firefox */
+  -o-animation-name:      fadeOutRight; /* Opera */
+}
+/* Internet Explorer / Edge */
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__fadeOutUp {
+  animation-name:         fadeOutUp; /* Internet Explorer / Edge */
+  -webkit-animation-name: fadeOutUp; /* Chrome, Safari and iOS */
+  -moz-animation-name:    fadeOutUp; /* Firefox */
+  -o-animation-name:      fadeOutUp; /* Opera */
+}

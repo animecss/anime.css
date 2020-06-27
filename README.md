@@ -25,9 +25,9 @@
   * [x] Fade Out Down
   * [x] Fade Out Left
   * [ ] Fade Out Left Big
-  * [ ] Fade Out Right
+  * [x] Fade Out Right
   * [ ] Fade Out Right Big
-  * [ ] Fade Out Up
+  * [x] Fade Out Up
   * [ ] Fade Out Up Big
 
 * [ ] Fade Down Big
