@@ -11,11 +11,11 @@ A lightweight cross-browser CSS animations library.
 ## TODO
 
 * Fade In
-  * [ ] Fade In
-  * [ ] Fade In Down
-  * [ ] Fade In Left
+  * [x] Fade In
+  * [x] Fade In Down
+  * [x] Fade In Left
   * [ ] Fade In Left Big
-  * [ ] Fade In Right
+  * [x] Fade In Right
   * [ ] Fade In Right Big
   * [ ] Fade In Up
   * [ ] Fade In Up Big

@@ -1,0 +1,58 @@
+/* Internet Explorer / Edge */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Chrome, Safari and iOS */
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+/* Firefox */
+@-moz-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+/* Opera */
+@-o-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+.fadeInRight {
+  animation-name:         fadeInRight; /* Internet Explorer / Edge */
+  -webkit-animation-name: fadeInRight; /* Chrome, Safari and iOS */
+  -moz-animation-name:    fadeInRight; /* Firefox */
+  -o-animation-name:      fadeInRight; /* Opera */
+}
