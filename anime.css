@@ -456,3 +456,55 @@
   -moz-animation-name:    bounceIn; /* Firefox */
   -o-animation-name:      bounceIn; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__bounceInDown {
+  animation-name:         bounceInDown; /* Internet Explorer / Edge */
+  -webkit-animation-name: bounceInDown; /* Chrome, Safari and iOS */
+  -moz-animation-name:    bounceInDown; /* Firefox */
+  -o-animation-name:      bounceInDown; /* Opera */
+}

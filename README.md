@@ -35,7 +35,7 @@
 * Bounce In
   * [ ] Bounce
   * [x] Bounce In
-  * [ ] Bounce In Down
+  * [x] Bounce In Down
   * [ ] Bounce In Left
   * [ ] Bounce In Right
 
