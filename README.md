@@ -45,7 +45,7 @@
   * [x] Bounce Out Down
   * [x] Bounce Out Left
   * [x] Bounce Out Right
-  * [ ] Bounce Out Up
+  * [x] Bounce Out Up
 
 * [ ] Flash
 
