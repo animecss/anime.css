@@ -17,7 +17,7 @@ const header = `
 
 module.exports = (ctx) => {
   const prefix = ctx.env === 'compat' ? '' : animeConfig.prefix;
-  const devMessage = `🎉🎉🎉🎉 \nanime.css ${ctx.env} build was compiled sucessfully! \n`;
+  const devMessage = `🎉🎉🎉🎉 \nanime.css ${ctx.env} build was compiled sucessfully!\n🎉🎉🎉🎉`;
 
   console.log(devMessage);
 
