@@ -35,7 +35,7 @@ or add it directly to your webpage:
 
 ## Usage
 
-Add the class `anime__animated` to an element, along with many of the anime names that staring with the `anime__` prefix:
+Add the class `anime__animated` to an element, along with many of the anime names that starting with the `anime__` prefix:
 
 ```html
 <img
@@ -44,7 +44,7 @@ Add the class `anime__animated` to an element, along with many of the anime name
 />
 ```
 
-### Anime Names
+### Anime Names Starting with `anime__` Prefix
 
 * Fade In
   * [x] `anime__fadeIn`
