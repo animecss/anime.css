@@ -85,10 +85,9 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Fade In Up Big
   * [ ] Fade Down Big
   * [ ] Bounce Up
-
-  * [ ] Flip
-  * [ ] Flip In X
-  * [ ] Flip In Y
+  
+  * [x] Flip In X
+  * [x] Flip In Y
   * [ ] Flip Out X
   * [ ] Flip Out Y
   * [ ] Flash
@@ -113,6 +112,7 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Shake
   * [ ] Swing
   * [ ] Tada
+  * [ ] Flip
 
 -->
 
