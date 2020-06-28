@@ -940,3 +940,37 @@
   -moz-animation-name:    flipInY; /* Firefox */
   -o-animation-name:      flipInY; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes flipOutX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }   
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes flipOutX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__flipOutX {
+  animation-name:         flipOutX; /* Internet Explorer / Edge */
+  -webkit-animation-name: flipOutX; /* Chrome, Safari and iOS */
+  -moz-animation-name:    flipOutX; /* Firefox */
+  -o-animation-name:      flipOutX; /* Opera */
+}

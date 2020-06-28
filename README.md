@@ -88,7 +88,7 @@ Add the class `anime__animated` to an element, along with many of the anime name
   
   * [x] Flip In X
   * [x] Flip In Y
-  * [ ] Flip Out X
+  * [x] Flip Out X
   * [ ] Flip Out Y
   * [ ] Flash
   * [ ] Hinge
