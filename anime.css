@@ -1534,3 +1534,37 @@
   -moz-animation-name:    lightSpeedIn; /* Firefox */
   -o-animation-name:      lightSpeedIn; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes lightSpeedOut {
+  0% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes lightSpeedOut {
+  0% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__lightSpeedOut {
+  animation-name:         lightSpeedOut; /* Internet Explorer / Edge */
+  -webkit-animation-name: lightSpeedOut; /* Chrome, Safari and iOS */
+  -moz-animation-name:    lightSpeedOut; /* Firefox */
+  -o-animation-name:      lightSpeedOut; /* Opera */
+}
