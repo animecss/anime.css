@@ -44,7 +44,7 @@ Add the class `anime__animated` to an element, along with many of the anime name
 />
 ```
 
-### Anime Names Starting with `anime__` Prefix
+#### Anime Names Starting with `anime__` Prefix
 
 * Fade In
   * [x] `anime__fadeIn`
