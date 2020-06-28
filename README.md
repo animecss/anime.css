@@ -12,19 +12,19 @@
 
 `Anime.css` is available on npm:
 
-```
+```js
 npm install anime.css --save
 ```
 
 `Anime.css` is available on yarn as well:
 
-```
+```js
 yarn add anime.css
 ```
 
 or add it directly to your webpage:
 
-```
+```js
 <head>
   <link
     rel="stylesheet"

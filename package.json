@@ -9,7 +9,7 @@
   "author": {
     "name": "Anime.css"
   },
-  "homepage": "https://anime.github.io",
+  "homepage": "https://github.com/animecss/anime.css.git",
   "license": "MIT",
   "animeConfig": {
     "prefix": "anime__"
