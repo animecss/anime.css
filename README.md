@@ -22,7 +22,7 @@ npm install anime.css --save
 yarn add anime.css
 ```
 
-or add it directly to your webpage:
+<!-- or add it directly to your webpage:
 
 ```js
 <head>
@@ -31,7 +31,7 @@ or add it directly to your webpage:
     href="anime.min.css"
   />
 </head>
-```
+``` -->
 
 ## Usage
 
