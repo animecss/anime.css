@@ -1,0 +1,66 @@
+/* Internet Explorer / Edge */
+@keyframes rotateInUpRight {
+  0% { 
+    transform-origin: right bottom;
+    transform: rotate(-90deg); 
+    opacity: 0; 
+  }
+
+  100% { 
+    transform-origin: right bottom; 
+    transform: rotate(0); 
+    opacity: 1; 
+  }
+}
+
+/* Chrome, Safari and iOS */
+@-webkit-keyframes rotateInUpRight {
+  0% { 
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg); 
+    opacity: 0; 
+  }
+
+  100% { 
+    -webkit-transform-origin: right bottom; 
+    -webkit-transform: rotate(0); 
+    opacity: 1; 
+  }
+}
+
+/* Firefox */
+@-moz-keyframes rotateInUpRight {
+  0% { 
+    -moz-transform-origin: right bottom;
+    -moz-transform: rotate(-90deg); 
+    opacity: 0; 
+  }
+
+  100% { 
+    -moz-transform-origin: right bottom; 
+    -moz-transform: rotate(0); 
+    opacity: 1; 
+  }
+}
+
+/* Opera */
+@-o-keyframes rotateInUpRight {
+  0% { 
+    -o-transform-origin: right bottom;
+    -o-transform: rotate(-90deg); 
+    opacity: 0; 
+  }
+
+  100% { 
+    -o-transform-origin: right bottom; 
+    -o-transform: rotate(0); 
+    opacity: 1; 
+  }
+}
+
+.rotateInUpRight {
+  animation-name:         rotateInUpRight; /* Internet Explorer / Edge */
+  -webkit-animation-name: rotateInUpRight; /* Chrome, Safari and iOS */
+  -moz-animation-name:    rotateInUpRight; /* Firefox */
+  -o-animation-name:      rotateInUpRight; /* Opera */
+}

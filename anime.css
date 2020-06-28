@@ -1156,3 +1156,43 @@
   -moz-animation-name:    rotateInUpLeft; /* Firefox */
   -o-animation-name:      rotateInUpLeft; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes rotateInUpRight {
+  0% { 
+    -webkit-transform-origin: right bottom; 
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); 
+    opacity: 0; 
+  }
+
+  100% { 
+    -webkit-transform-origin: right bottom; 
+    transform-origin: right bottom; 
+    -webkit-transform: rotate(0); 
+    transform: rotate(0); 
+    opacity: 1; 
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes rotateInUpRight {
+  0% { 
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg); 
+    opacity: 0; 
+  }
+
+  100% { 
+    -webkit-transform-origin: right bottom; 
+    -webkit-transform: rotate(0); 
+    opacity: 1; 
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__rotateInUpRight {
+  animation-name:         rotateInUpRight; /* Internet Explorer / Edge */
+  -webkit-animation-name: rotateInUpRight; /* Chrome, Safari and iOS */
+  -moz-animation-name:    rotateInUpRight; /* Firefox */
+  -o-animation-name:      rotateInUpRight; /* Opera */
+}
