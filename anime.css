@@ -1478,3 +1478,59 @@
   -moz-animation-name:    rotateOutDownRight; /* Firefox */
   -o-animation-name:      rotateOutDownRight; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes lightSpeedIn {
+  0% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: translateX(-20%) skewX(30deg);
+    transform: translateX(-20%) skewX(30deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: translateX(0%) skewX(-15deg);
+    transform: translateX(0%) skewX(-15deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes lightSpeedIn {
+  0% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: translateX(-20%) skewX(30deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: translateX(0%) skewX(-15deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__lightSpeedIn {
+  animation-name:         lightSpeedIn; /* Internet Explorer / Edge */
+  -webkit-animation-name: lightSpeedIn; /* Chrome, Safari and iOS */
+  -moz-animation-name:    lightSpeedIn; /* Firefox */
+  -o-animation-name:      lightSpeedIn; /* Opera */
+}

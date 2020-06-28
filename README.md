@@ -112,11 +112,10 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Fade Down Big
   * [ ] Bounce Up
 
-  
+  * [x] Light Speed In
+  * [ ] Light Speed Out
   * [ ] Flash
   * [ ] Hinge
-  * [ ] Light Speed In
-  * [ ] Light Speed Out
   * [ ] Pulse
   * [ ] Wobble
   * [ ] Winggle
