@@ -1,0 +1,34 @@
+/* Internet Explorer / Edge */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Chrome, Safari and iOS */
+@-webkit-keyframes pulse {
+  0% { -webkit-transform: scale(1); }
+  50% { -webkit-transform: scale(1.1); }
+  100% { -webkit-transform: scale(1); }
+}
+
+/* Firefox */
+@-moz-keyframes pulse {
+  0% { -moz-transform: scale(1); }
+  50% { -moz-transform: scale(1.1); }
+  100% { -moz-transform: scale(1); }
+}
+
+/* Opera */
+@-o-keyframes pulse {
+  0% { -o-transform: scale(1); }
+  50% { -o-transform: scale(1.1); }
+  100% { -o-transform: scale(1); }
+}
+
+.pulse {
+  animation-name:         pulse; /* Internet Explorer / Edge */
+  -webkit-animation-name: pulse; /* Chrome, Safari and iOS */
+  -moz-animation-name:    pulse; /* Firefox */
+  -o-animation-name:      pulse; /* Opera */
+}
