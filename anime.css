@@ -1568,3 +1568,25 @@
   -moz-animation-name:    lightSpeedOut; /* Firefox */
   -o-animation-name:      lightSpeedOut; /* Opera */
 }
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+.anime__flash {
+  animation-name:         flash; /* Internet Explorer / Edge */
+  -webkit-animation-name: flash; /* Chrome, Safari and iOS */
+  -moz-animation-name:    flash; /* Firefox */
+  -o-animation-name:      flash; /* Opera */
+}
