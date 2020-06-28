@@ -102,6 +102,9 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [x] `anime__lightSpeedIn`
   * [x] `anime__lightSpeedOut`
 
+* Action
+  * [x] `anime__flash`
+
 <!--
 
 * TODO
@@ -116,7 +119,6 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Fade Down Big
   * [ ] Bounce Up
 
-  * [x] Flash
   * [ ] Hinge
   * [ ] Pulse
   * [ ] Wobble
