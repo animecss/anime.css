@@ -1008,3 +1008,37 @@
   -moz-animation-name:    flipOutY; /* Firefox */
   -o-animation-name:      flipOutY; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+    transform: translateX(-100%) rotate(-120deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__rollIn {
+  animation-name:         rollIn; /* Internet Explorer / Edge */
+  -webkit-animation-name: rollIn; /* Chrome, Safari and iOS */
+  -moz-animation-name:    rollIn; /* Firefox */
+  -o-animation-name:      rollIn; /* Opera */
+}

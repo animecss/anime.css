@@ -72,6 +72,14 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [x] `anime__bounceOutRight`
   * [x] `anime__bounceOutUp`
 
+* Flip In
+  * [x] `anime__flipInX`
+  * [x] `anime__flipInY`
+
+* Flip Out
+  * [x] `anime__flipOutX`
+  * [x] `anime__flipOutY`
+
 <!--
 
 * TODO
@@ -86,29 +94,25 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Fade Down Big
   * [ ] Bounce Up
   
-  * [x] Flip In X
-  * [x] Flip In Y
-  * [x] Flip Out X
-  * [ ] Flip Out Y
+  * [x] Roll In
+  * [ ] Roll Out
+  * [ ] Rotate In
+  * [ ] Rotate In Up Left
+  * [ ] Rotate In Up Right
+  * [ ] Rotate In Down Left
+  * [ ] Rotate In Down Right
+  * [ ] Rotate Out
+  * [ ] Rotate Out Up Left
+  * [ ] Rotate Out Up Right
+  * [ ] Rotate Out Down Left
+  * [ ] Rotate Out Down Right
   * [ ] Flash
   * [ ] Hinge
   * [ ] Light Speed In
   * [ ] Light Speed Out
   * [ ] Pulse
-  * [ ] Roll In
-  * [ ] Roll Out
-  * [ ] Rotate In Down Left
-  * [ ] Rotate In
-  * [ ] Rotate In Down Right
   * [ ] Wobble
-  * [ ] Rotate In Up Left
-  * [ ] Rotate In Up Right
   * [ ] Winggle
-  * [ ] Rotate Out
-  * [ ] Rotate Out Down Left
-  * [ ] Rotate Out Down Right
-  * [ ] Rotate Out Up Left
-  * [ ] Rotate Out Up Right
   * [ ] Shake
   * [ ] Swing
   * [ ] Tada
