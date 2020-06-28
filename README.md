@@ -104,6 +104,13 @@ Add the class `anime__animated` to an element, along with many of the anime name
 
 * Action
   * [x] `anime__flash`
+  * [x] `anime__hinge`
+  * [ ] `anime__pulse`
+  * [ ] `anime__wobble`
+  * [ ] `anime__winggle`
+  * [ ] `anime__shake`
+  * [ ] `anime__swing`
+  * [ ] `anime__tada`
 
 <!--
 
@@ -118,14 +125,6 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Fade In Up Big
   * [ ] Fade Down Big
   * [ ] Bounce Up
-
-  * [ ] Hinge
-  * [ ] Pulse
-  * [ ] Wobble
-  * [ ] Winggle
-  * [ ] Shake
-  * [ ] Swing
-  * [ ] Tada
   * [ ] Flip
 
 -->
