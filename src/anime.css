@@ -31,3 +31,6 @@
 
 @import 'roll/rollIn.css';
 @import 'roll/rollOut.css';
+
+@import 'rotate_in/rotateIn.css';
+@import 'rotate_in/rotateInUpLeft.css';

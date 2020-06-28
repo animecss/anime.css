@@ -1076,3 +1076,83 @@
   -moz-animation-name:    rollOut; /* Firefox */
   -o-animation-name:      rollOut; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    transform: rotate(-200deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__rotateIn {
+  animation-name:         rotateIn; /* Internet Explorer / Edge */
+  -webkit-animation-name: rotateIn; /* Chrome, Safari and iOS */
+  -moz-animation-name:    rotateIn; /* Firefox */
+  -o-animation-name:      rotateIn; /* Opera */
+}
+/* Internet Explorer / Edge */
+@keyframes rotateInUpLeft {
+  0% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    transform: rotate(-200deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes rotateInUpLeft {
+  0% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__rotateInUpLeft {
+  animation-name:         rotateInUpLeft; /* Internet Explorer / Edge */
+  -webkit-animation-name: rotateInUpLeft; /* Chrome, Safari and iOS */
+  -moz-animation-name:    rotateInUpLeft; /* Firefox */
+  -o-animation-name:      rotateInUpLeft; /* Opera */
+}
