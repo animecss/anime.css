@@ -1398,3 +1398,83 @@
   -moz-animation-name:    rotateOutUpRight; /* Firefox */
   -o-animation-name:      rotateOutUpRight; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0); 
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(0); 
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__rotateOutDownLeft {
+  animation-name:         rotateOutDownLeft; /* Internet Explorer / Edge */
+  -webkit-animation-name: rotateOutDownLeft; /* Chrome, Safari and iOS */
+  -moz-animation-name:    rotateOutDownLeft; /* Firefox */
+  -o-animation-name:      rotateOutDownLeft; /* Opera */
+}
+/* Internet Explorer / Edge */
+@keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+/* Firefox */
+/* Opera */
+.anime__rotateOutDownRight {
+  animation-name:         rotateOutDownRight; /* Internet Explorer / Edge */
+  -webkit-animation-name: rotateOutDownRight; /* Chrome, Safari and iOS */
+  -moz-animation-name:    rotateOutDownRight; /* Firefox */
+  -o-animation-name:      rotateOutDownRight; /* Opera */
+}

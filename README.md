@@ -91,6 +91,13 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [x] `anime__rotateInDownLeft`
   * [x] `anime__rotateInDownRight`
 
+* Rotate Out
+  * [x] `anime__rotateOut`
+  * [x] `anime__rotateOutUpLeft`
+  * [x] `anime__rotateOutUpRight`
+  * [x] `anime__rotateOutDownLeft`
+  * [x] `anime__rotateOutDownRight`
+
 <!--
 
 * TODO
@@ -105,11 +112,7 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [ ] Fade Down Big
   * [ ] Bounce Up
 
-  * [x] Rotate Out
-  * [x] Rotate Out Up Left
-  * [x] Rotate Out Up Right
-  * [ ] Rotate Out Down Left
-  * [ ] Rotate Out Down Right
+  
   * [ ] Flash
   * [ ] Hinge
   * [ ] Light Speed In
