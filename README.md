@@ -107,7 +107,7 @@ Add the class `anime__animated` to an element, along with many of the anime name
 
   * [x] Rotate Out
   * [x] Rotate Out Up Left
-  * [ ] Rotate Out Up Right
+  * [x] Rotate Out Up Right
   * [ ] Rotate Out Down Left
   * [ ] Rotate Out Down Right
   * [ ] Flash
