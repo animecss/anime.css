@@ -1804,3 +1804,27 @@
   -moz-animation-name:    swing; /* Firefox */
   -o-animation-name:      swing; /* Opera */
 }
+/* Internet Explorer / Edge */
+@keyframes tada {
+  0% { -webkit-transform: scale(1); transform: scale(1); }
+  10%, 20% { -webkit-transform: scale(0.9) rotate(-3deg); transform: scale(0.9) rotate(-3deg); }
+  30%, 50%, 70%, 90% { -webkit-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }
+  40%, 60%, 80% { -webkit-transform: scale(1.1) rotate(-3deg); transform: scale(1.1) rotate(-3deg); }
+  100% { -webkit-transform: scale(1) rotate(0); transform: scale(1) rotate(0); }
+}
+/* Chrome, Safari and iOS */
+@-webkit-keyframes tada {
+  0% { -webkit-transform: scale(1); }
+  10%, 20% { -webkit-transform: scale(0.9) rotate(-3deg); }
+  30%, 50%, 70%, 90% { -webkit-transform: scale(1.1) rotate(3deg); }
+  40%, 60%, 80% { -webkit-transform: scale(1.1) rotate(-3deg); }
+  100% { -webkit-transform: scale(1) rotate(0); }
+}
+/* Firefox */
+/* Opera */
+.anime__tada {
+  animation-name:         tada; /* Internet Explorer / Edge */
+  -webkit-animation-name: tada; /* Chrome, Safari and iOS */
+  -moz-animation-name:    tada; /* Firefox */
+  -o-animation-name:      tada; /* Opera */
+}
