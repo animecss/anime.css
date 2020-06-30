@@ -106,8 +106,8 @@ Add the class `anime__animated` to an element, along with many of the anime name
   * [x] `anime__flash`
   * [x] `anime__hinge`
   * [x] `anime__pulse`
-  * [ ] `anime__wobble`
-  * [ ] `anime__winggle`
+  * [x] `anime__wobble`
+  * [x] `anime__winggle`
   * [ ] `anime__shake`
   * [ ] `anime__swing`
   * [ ] `anime__tada`
