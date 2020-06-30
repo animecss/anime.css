@@ -1,0 +1,34 @@
+/* Internet Explorer / Edge */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { transform: translateX(10px); }
+}
+
+/* Chrome, Safari and iOS */
+@-webkit-keyframes shake {
+  0%, 100% { -webkit-transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); }
+}
+
+/* Firefox */
+@-moz-keyframes shake {
+  0%, 100% { -moz-transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { -moz-transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { -moz-transform: translateX(10px); }
+}
+
+/* Opera */
+@-o-keyframes shake {
+  0%, 100% { -o-transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { -o-transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { -o-transform: translateX(10px); }
+}
+
+.shake {
+  animation-name:         shake; /* Internet Explorer / Edge */
+  -webkit-animation-name: shake; /* Chrome, Safari and iOS */
+  -moz-animation-name:    shake; /* Firefox */
+  -o-animation-name:      shake; /* Opera */
+}
