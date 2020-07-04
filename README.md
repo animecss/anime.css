@@ -47,70 +47,70 @@ Add the class `anime__animated` to an element, along with many of the anime name
 #### Anime Names Starting with `anime__` Prefix
 
 * Fade In
-  * [x] `anime__fadeIn`
-  * [x] `anime__fadeInDown`
-  * [x] `anime__fadeInLeft`
-  * [x] `anime__fadeInRight`
+  * `anime__fadeIn`
+  * `anime__fadeInDown`
+  * `anime__fadeInLeft`
+  * `anime__fadeInRight`
 
 * Fade Out
-  * [x] `anime__fadeOut`
-  * [x] `anime__fadeOutDown`
-  * [x] `anime__fadeOutLeft`
-  * [x] `anime__fadeOutRight`
-  * [x] `anime__fadeOutUp`
+  * `anime__fadeOut`
+  * `anime__fadeOutDown`
+  * `anime__fadeOutLeft`
+  * `anime__fadeOutRight`
+  * `anime__fadeOutUp`
 
 * Bounce In
-  * [x] `anime__bounceIn`
-  * [x] `anime__bounceInDown`
-  * [x] `anime__bounceInLeft`
-  * [x] `anime__bounceInRight`
+  * `anime__bounceIn`
+  * `anime__bounceInDown`
+  * `anime__bounceInLeft`
+  * `anime__bounceInRight`
 
 * Bounce Out
-  * [x] `anime__bounceOut`
-  * [x] `anime__bounceOutDown`
-  * [x] `anime__bounceOutLeft`
-  * [x] `anime__bounceOutRight`
-  * [x] `anime__bounceOutUp`
+  * `anime__bounceOut`
+  * `anime__bounceOutDown`
+  * `anime__bounceOutLeft`
+  * `anime__bounceOutRight`
+  * `anime__bounceOutUp`
 
 * Flip In
-  * [x] `anime__flipInX`
-  * [x] `anime__flipInY`
+  * `anime__flipInX`
+  * `anime__flipInY`
 
 * Flip Out
-  * [x] `anime__flipOutX`
-  * [x] `anime__flipOutY`
+  * `anime__flipOutX`
+  * `anime__flipOutY`
 
 * Roll
-  * [x] `anime__rollIn`
-  * [x] `anime__rollOut`
+  * `anime__rollIn`
+  * `anime__rollOut`
 
 * Rotate In
-  * [x] `anime__rotateIn`
-  * [x] `anime__rotateInUpLeft`
-  * [x] `anime__rotateInUpRight`
-  * [x] `anime__rotateInDownLeft`
-  * [x] `anime__rotateInDownRight`
+  * `anime__rotateIn`
+  * `anime__rotateInUpLeft`
+  * `anime__rotateInUpRight`
+  * `anime__rotateInDownLeft`
+  * `anime__rotateInDownRight`
 
 * Rotate Out
-  * [x] `anime__rotateOut`
-  * [x] `anime__rotateOutUpLeft`
-  * [x] `anime__rotateOutUpRight`
-  * [x] `anime__rotateOutDownLeft`
-  * [x] `anime__rotateOutDownRight`
+  * `anime__rotateOut`
+  * `anime__rotateOutUpLeft`
+  * `anime__rotateOutUpRight`
+  * `anime__rotateOutDownLeft`
+  * `anime__rotateOutDownRight`
 
 * Light Speed
-  * [x] `anime__lightSpeedIn`
-  * [x] `anime__lightSpeedOut`
+  * `anime__lightSpeedIn`
+  * `anime__lightSpeedOut`
 
 * Action
-  * [x] `anime__flash`
-  * [x] `anime__hinge`
-  * [x] `anime__pulse`
-  * [x] `anime__wobble`
-  * [x] `anime__winggle`
-  * [x] `anime__shake`
-  * [x] `anime__swing`
-  * [ ] `anime__tada`
+  * `anime__flash`
+  * `anime__hinge`
+  * `anime__pulse`
+  * `anime__wobble`
+  * `anime__winggle`
+  * `anime__shake`
+  * `anime__swing`
+  * `anime__tada`
 
 <!--
 
