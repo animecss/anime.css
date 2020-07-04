@@ -83,8 +83,8 @@
 }
 
 .bounceInLeft {
-  animation-name:         bounceInLeft; /* Internet Explorer / Edge */
+  animation-name: bounceInLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceInLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceInLeft; /* Firefox */
-  -o-animation-name:      bounceInLeft; /* Opera */
+  -moz-animation-name: bounceInLeft; /* Firefox */
+  -o-animation-name: bounceInLeft; /* Opera */
 }

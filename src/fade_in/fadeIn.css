@@ -43,8 +43,8 @@
 }
 
 .fadeIn {
-  animation-name:         fadeIn; /* Internet Explorer / Edge */
+  animation-name: fadeIn; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeIn; /* Firefox */
-  -o-animation-name:      fadeIn; /* Opera */
+  -moz-animation-name: fadeIn; /* Firefox */
+  -o-animation-name: fadeIn; /* Opera */
 }

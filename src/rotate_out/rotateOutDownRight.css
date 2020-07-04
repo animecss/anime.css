@@ -60,8 +60,8 @@
 }
 
 .rotateOutDownRight {
-  animation-name:         rotateOutDownRight; /* Internet Explorer / Edge */
+  animation-name: rotateOutDownRight; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOutDownRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOutDownRight; /* Firefox */
-  -o-animation-name:      rotateOutDownRight; /* Opera */
+  -moz-animation-name: rotateOutDownRight; /* Firefox */
+  -o-animation-name: rotateOutDownRight; /* Opera */
 }

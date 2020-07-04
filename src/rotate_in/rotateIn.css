@@ -59,8 +59,8 @@
 }
 
 .rotateIn {
-  animation-name:         rotateIn; /* Internet Explorer / Edge */
+  animation-name: rotateIn; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateIn; /* Firefox */
-  -o-animation-name:      rotateIn; /* Opera */
+  -moz-animation-name: rotateIn; /* Firefox */
+  -o-animation-name: rotateIn; /* Opera */
 }

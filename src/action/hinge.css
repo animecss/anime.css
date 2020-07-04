@@ -6,7 +6,8 @@
     animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     transform: rotate(80deg);
     transform-origin: top left;
     animation-timing-function: ease-in-out;
@@ -18,7 +19,7 @@
     animation-timing-function: ease-in-out;
   }
 
-  80% { 
+  80% {
     transform: rotate(60deg) translateY(0);
     opacity: 1;
     transform-origin: top left;
@@ -39,7 +40,8 @@
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     -webkit-transform: rotate(80deg);
     -webkit-transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
@@ -51,7 +53,7 @@
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  80% { 
+  80% {
     -webkit-transform: rotate(60deg) translateY(0);
     opacity: 1;
     -webkit-transform-origin: top left;
@@ -72,7 +74,8 @@
     -moz-animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     -moz-transform: rotate(80deg);
     -moz-transform-origin: top left;
     -moz-animation-timing-function: ease-in-out;
@@ -84,7 +87,7 @@
     -moz-animation-timing-function: ease-in-out;
   }
 
-  80% { 
+  80% {
     -moz-transform: rotate(60deg) translateY(0);
     opacity: 1;
     -moz-transform-origin: top left;
@@ -105,7 +108,8 @@
     -o-animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     -o-transform: rotate(80deg);
     -o-transform-origin: top left;
     -o-animation-timing-function: ease-in-out;
@@ -117,7 +121,7 @@
     -o-animation-timing-function: ease-in-out;
   }
 
-  80% { 
+  80% {
     -o-transform: rotate(60deg) translateY(0);
     opacity: 1;
     -o-transform-origin: top left;
@@ -131,8 +135,8 @@
 }
 
 .hinge {
-  animation-name:         hinge; /* Internet Explorer / Edge */
+  animation-name: hinge; /* Internet Explorer / Edge */
   -webkit-animation-name: hinge; /* Chrome, Safari and iOS */
-  -moz-animation-name:    hinge; /* Firefox */
-  -o-animation-name:      hinge; /* Opera */
+  -moz-animation-name: hinge; /* Firefox */
+  -o-animation-name: hinge; /* Opera */
 }

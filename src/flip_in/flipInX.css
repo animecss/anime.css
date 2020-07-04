@@ -83,8 +83,8 @@
 }
 
 .flipInX {
-  animation-name:         flipInX; /* Internet Explorer / Edge */
+  animation-name: flipInX; /* Internet Explorer / Edge */
   -webkit-animation-name: flipInX; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flipInX; /* Firefox */
-  -o-animation-name:      flipInX; /* Opera */
+  -moz-animation-name: flipInX; /* Firefox */
+  -o-animation-name: flipInX; /* Opera */
 }

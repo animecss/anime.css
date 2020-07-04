@@ -1,42 +1,98 @@
 /* Internet Explorer / Edge */
 @keyframes swing {
-  20% { transform: rotate(15deg); }
-  40% { transform: rotate(-10deg); }
-  60% { transform: rotate(5deg); }
-  80% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); } 
+  20% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /* Chrome, Safari and iOS */
 @-webkit-keyframes swing {
-  20% { -webkit-transform: rotate(15deg); }
-  40% { -webkit-transform: rotate(-10deg); }
-  60% { -webkit-transform: rotate(5deg); }
-  80% { -webkit-transform: rotate(-5deg); }
-  100% { -webkit-transform: rotate(0deg); }
+  20% {
+    -webkit-transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
 }
 
 /* Firefox */
 @-moz-keyframes swing {
-  20% { -moz-transform: rotate(15deg); }
-  40% { -moz-transform: rotate(-10deg); }
-  60% { -moz-transform: rotate(5deg); }
-  80% { -moz-transform: rotate(-5deg); }
-  100% { -moz-transform: rotate(0deg); }
+  20% {
+    -moz-transform: rotate(15deg);
+  }
+
+  40% {
+    -moz-transform: rotate(-10deg);
+  }
+
+  60% {
+    -moz-transform: rotate(5deg);
+  }
+
+  80% {
+    -moz-transform: rotate(-5deg);
+  }
+
+  100% {
+    -moz-transform: rotate(0deg);
+  }
 }
 
 /* Opera */
 @-o-keyframes swing {
-  20% { -o-transform: rotate(15deg); }
-  40% { -o-transform: rotate(-10deg); }
-  60% { -o-transform: rotate(5deg); }
-  80% { -o-transform: rotate(-5deg); }
-  100% { -o-transform: rotate(0deg); }
+  20% {
+    -o-transform: rotate(15deg);
+  }
+
+  40% {
+    -o-transform: rotate(-10deg);
+  }
+
+  60% {
+    -o-transform: rotate(5deg);
+  }
+
+  80% {
+    -o-transform: rotate(-5deg);
+  }
+
+  100% {
+    -o-transform: rotate(0deg);
+  }
 }
 
 .swing {
-  animation-name:         swing; /* Internet Explorer / Edge */
+  animation-name: swing; /* Internet Explorer / Edge */
   -webkit-animation-name: swing; /* Chrome, Safari and iOS */
-  -moz-animation-name:    swing; /* Firefox */
-  -o-animation-name:      swing; /* Opera */
+  -moz-animation-name: swing; /* Firefox */
+  -o-animation-name: swing; /* Opera */
 }

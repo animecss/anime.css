@@ -51,8 +51,8 @@
 }
 
 .fadeOutDown {
-  animation-name:         fadeOutDown; /* Internet Explorer / Edge */
+  animation-name: fadeOutDown; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeOutDown; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeOutDown; /* Firefox */
-  -o-animation-name:      fadeOutDown; /* Opera */
+  -moz-animation-name: fadeOutDown; /* Firefox */
+  -o-animation-name: fadeOutDown; /* Opera */
 }

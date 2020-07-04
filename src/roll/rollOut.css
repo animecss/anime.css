@@ -51,8 +51,8 @@
 }
 
 .rollOut {
-  animation-name:         rollOut; /* Internet Explorer / Edge */
+  animation-name: rollOut; /* Internet Explorer / Edge */
   -webkit-animation-name: rollOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rollOut; /* Firefox */
-  -o-animation-name:      rollOut; /* Opera */
+  -moz-animation-name: rollOut; /* Firefox */
+  -o-animation-name: rollOut; /* Opera */
 }

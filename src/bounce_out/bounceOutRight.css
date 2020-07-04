@@ -1,7 +1,7 @@
 /* Internet Explorer / Edge */
 @keyframes bounceOutRight {
   0% {
-    transform: translateX(0); 
+    transform: translateX(0);
   }
 
   20% {
@@ -18,7 +18,7 @@
 /* Chrome, Safari and iOS */
 @-webkit-keyframes bounceOutRight {
   0% {
-    -webkit-transform: translateX(0); 
+    -webkit-transform: translateX(0);
   }
 
   20% {
@@ -35,7 +35,7 @@
 /* Firefox */
 @-moz-keyframes bounceOutRight {
   0% {
-    -moz-transform: translateX(0); 
+    -moz-transform: translateX(0);
   }
 
   20% {
@@ -52,7 +52,7 @@
 /* Opera */
 @-o-keyframes bounceOutRight {
   0% {
-    -o-transform: translateX(0); 
+    -o-transform: translateX(0);
   }
 
   20% {
@@ -67,8 +67,8 @@
 }
 
 .bounceOutRight {
-  animation-name:         bounceOutRight; /* Internet Explorer / Edge */
+  animation-name: bounceOutRight; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOutRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOutRight; /* Firefox */
-  -o-animation-name:      bounceOutRight; /* Opera */
+  -moz-animation-name: bounceOutRight; /* Firefox */
+  -o-animation-name: bounceOutRight; /* Opera */
 }

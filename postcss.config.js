@@ -1,5 +1,7 @@
 const fs = require('fs');
-const {homepage, version, author, animeConfig} = JSON.parse(fs.readFileSync('package.json'));
+const {homepage, version, author, animeConfig} = JSON.parse(
+  fs.readFileSync('package.json'),
+);
 
 const header = `
 @charset "UTF-8";

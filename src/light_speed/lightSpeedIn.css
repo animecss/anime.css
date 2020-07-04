@@ -91,8 +91,8 @@
 }
 
 .lightSpeedIn {
-  animation-name:         lightSpeedIn; /* Internet Explorer / Edge */
+  animation-name: lightSpeedIn; /* Internet Explorer / Edge */
   -webkit-animation-name: lightSpeedIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    lightSpeedIn; /* Firefox */
-  -o-animation-name:      lightSpeedIn; /* Opera */
+  -moz-animation-name: lightSpeedIn; /* Firefox */
+  -o-animation-name: lightSpeedIn; /* Opera */
 }

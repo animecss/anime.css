@@ -51,8 +51,8 @@
 }
 
 .flipOutY {
-  animation-name:         flipOutY; /* Internet Explorer / Edge */
+  animation-name: flipOutY; /* Internet Explorer / Edge */
   -webkit-animation-name: flipOutY; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flipOutY; /* Firefox */
-  -o-animation-name:      flipOutY; /* Opera */
+  -moz-animation-name: flipOutY; /* Firefox */
+  -o-animation-name: flipOutY; /* Opera */
 }

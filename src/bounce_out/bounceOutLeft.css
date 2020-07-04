@@ -67,8 +67,8 @@
 }
 
 .bounceOutLeft {
-  animation-name:         bounceOutLeft; /* Internet Explorer / Edge */
+  animation-name: bounceOutLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOutLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOutLeft; /* Firefox */
-  -o-animation-name:      bounceOutLeft; /* Opera */
+  -moz-animation-name: bounceOutLeft; /* Firefox */
+  -o-animation-name: bounceOutLeft; /* Opera */
 }

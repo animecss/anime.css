@@ -51,8 +51,8 @@
 }
 
 .fadeInLeft {
-  animation-name:         fadeInLeft; /* Internet Explorer / Edge */
+  animation-name: fadeInLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeInLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeInLeft; /* Firefox */
-  -o-animation-name:      fadeInLeft; /* Opera */
+  -moz-animation-name: fadeInLeft; /* Firefox */
+  -o-animation-name: fadeInLeft; /* Opera */
 }

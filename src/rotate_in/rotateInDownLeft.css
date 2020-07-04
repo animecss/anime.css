@@ -59,8 +59,8 @@
 }
 
 .rotateInDownLeft {
-  animation-name:         rotateInDownLeft; /* Internet Explorer / Edge */
+  animation-name: rotateInDownLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateInDownLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateInDownLeft; /* Firefox */
-  -o-animation-name:      rotateInDownLeft; /* Opera */
+  -moz-animation-name: rotateInDownLeft; /* Firefox */
+  -o-animation-name: rotateInDownLeft; /* Opera */
 }

@@ -59,8 +59,8 @@
 }
 
 .rotateOut {
-  animation-name:         rotateOut; /* Internet Explorer / Edge */
+  animation-name: rotateOut; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOut; /* Firefox */
-  -o-animation-name:      rotateOut; /* Opera */
+  -moz-animation-name: rotateOut; /* Firefox */
+  -o-animation-name: rotateOut; /* Opera */
 }

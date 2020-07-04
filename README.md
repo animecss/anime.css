@@ -38,79 +38,86 @@ yarn add anime.css
 Add the class `anime__animated` to an element, along with many of the anime names that starting with the `anime__` prefix:
 
 ```html
-<img
-  src="anime.png"
-  class="anime__animated anime__fadeIn"
-/>
+<img src="anime.png" class="anime__animated anime__fadeIn" />
 ```
 
 #### Anime Names Starting with `anime__` Prefix
 
-* Fade In
-  * `anime__fadeIn`
-  * `anime__fadeInDown`
-  * `anime__fadeInLeft`
-  * `anime__fadeInRight`
+- Fade In
 
-* Fade Out
-  * `anime__fadeOut`
-  * `anime__fadeOutDown`
-  * `anime__fadeOutLeft`
-  * `anime__fadeOutRight`
-  * `anime__fadeOutUp`
+  - `anime__fadeIn`
+  - `anime__fadeInDown`
+  - `anime__fadeInLeft`
+  - `anime__fadeInRight`
 
-* Bounce In
-  * `anime__bounceIn`
-  * `anime__bounceInDown`
-  * `anime__bounceInLeft`
-  * `anime__bounceInRight`
+- Fade Out
 
-* Bounce Out
-  * `anime__bounceOut`
-  * `anime__bounceOutDown`
-  * `anime__bounceOutLeft`
-  * `anime__bounceOutRight`
-  * `anime__bounceOutUp`
+  - `anime__fadeOut`
+  - `anime__fadeOutDown`
+  - `anime__fadeOutLeft`
+  - `anime__fadeOutRight`
+  - `anime__fadeOutUp`
 
-* Flip In
-  * `anime__flipInX`
-  * `anime__flipInY`
+- Bounce In
 
-* Flip Out
-  * `anime__flipOutX`
-  * `anime__flipOutY`
+  - `anime__bounceIn`
+  - `anime__bounceInDown`
+  - `anime__bounceInLeft`
+  - `anime__bounceInRight`
 
-* Roll
-  * `anime__rollIn`
-  * `anime__rollOut`
+- Bounce Out
 
-* Rotate In
-  * `anime__rotateIn`
-  * `anime__rotateInUpLeft`
-  * `anime__rotateInUpRight`
-  * `anime__rotateInDownLeft`
-  * `anime__rotateInDownRight`
+  - `anime__bounceOut`
+  - `anime__bounceOutDown`
+  - `anime__bounceOutLeft`
+  - `anime__bounceOutRight`
+  - `anime__bounceOutUp`
 
-* Rotate Out
-  * `anime__rotateOut`
-  * `anime__rotateOutUpLeft`
-  * `anime__rotateOutUpRight`
-  * `anime__rotateOutDownLeft`
-  * `anime__rotateOutDownRight`
+- Flip In
 
-* Light Speed
-  * `anime__lightSpeedIn`
-  * `anime__lightSpeedOut`
+  - `anime__flipInX`
+  - `anime__flipInY`
 
-* Action
-  * `anime__flash`
-  * `anime__hinge`
-  * `anime__pulse`
-  * `anime__wobble`
-  * `anime__winggle`
-  * `anime__shake`
-  * `anime__swing`
-  * `anime__tada`
+- Flip Out
+
+  - `anime__flipOutX`
+  - `anime__flipOutY`
+
+- Roll
+
+  - `anime__rollIn`
+  - `anime__rollOut`
+
+- Rotate In
+
+  - `anime__rotateIn`
+  - `anime__rotateInUpLeft`
+  - `anime__rotateInUpRight`
+  - `anime__rotateInDownLeft`
+  - `anime__rotateInDownRight`
+
+- Rotate Out
+
+  - `anime__rotateOut`
+  - `anime__rotateOutUpLeft`
+  - `anime__rotateOutUpRight`
+  - `anime__rotateOutDownLeft`
+  - `anime__rotateOutDownRight`
+
+- Light Speed
+
+  - `anime__lightSpeedIn`
+  - `anime__lightSpeedOut`
+
+- Action
+  - `anime__flash`
+  - `anime__hinge`
+  - `anime__pulse`
+  - `anime__wobble`
+  - `anime__winggle`
+  - `anime__shake`
+  - `anime__swing`
+  - `anime__tada`
 
 <!--
 
@@ -133,8 +140,8 @@ Add the class `anime__animated` to an element, along with many of the anime name
 
 Huge thanks to:
 
-* [Chris Coyier](https://github.com/chriscoyier)
-* [Tutorials Point](https://www.tutorialspoint.com/css/css_animation.htm)
+- [Chris Coyier](https://github.com/chriscoyier)
+- [Tutorials Point](https://www.tutorialspoint.com/css/css_animation.htm)
 
 ## Contributing
 
@@ -146,7 +153,7 @@ Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<!-- 
+<!--
 
 <html>
   <head>

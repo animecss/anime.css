@@ -8,7 +8,7 @@
   100% {
     transform: perspective(400px) rotateX(90deg);
     opacity: 0;
-  }   
+  }
 }
 
 /* Chrome, Safari and iOS */
@@ -51,8 +51,8 @@
 }
 
 .flipOutX {
-  animation-name:         flipOutX; /* Internet Explorer / Edge */
+  animation-name: flipOutX; /* Internet Explorer / Edge */
   -webkit-animation-name: flipOutX; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flipOutX; /* Firefox */
-  -o-animation-name:      flipOutX; /* Opera */
+  -moz-animation-name: flipOutX; /* Firefox */
+  -o-animation-name: flipOutX; /* Opera */
 }

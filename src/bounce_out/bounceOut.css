@@ -5,7 +5,7 @@
   }
 
   25% {
-    transform: scale(.95);
+    transform: scale(0.95);
   }
 
   50% {
@@ -15,7 +15,7 @@
 
   100% {
     opacity: 0;
-    transform: scale(.3);
+    transform: scale(0.3);
   }
 }
 
@@ -26,7 +26,7 @@
   }
 
   25% {
-    -webkit-transform: scale(.95);
+    -webkit-transform: scale(0.95);
   }
 
   50% {
@@ -36,7 +36,7 @@
 
   100% {
     opacity: 0;
-    -webkit-transform: scale(.3);
+    -webkit-transform: scale(0.3);
   }
 }
 
@@ -47,7 +47,7 @@
   }
 
   25% {
-    -moz-transform: scale(.95);
+    -moz-transform: scale(0.95);
   }
 
   50% {
@@ -57,7 +57,7 @@
 
   100% {
     opacity: 0;
-    -moz-transform: scale(.3);
+    -moz-transform: scale(0.3);
   }
 }
 
@@ -68,7 +68,7 @@
   }
 
   25% {
-    -o-transform: scale(.95);
+    -o-transform: scale(0.95);
   }
 
   50% {
@@ -78,13 +78,13 @@
 
   100% {
     opacity: 0;
-    -o-transform: scale(.3);
+    -o-transform: scale(0.3);
   }
 }
 
 .bounceOut {
-  animation-name:         bounceOut; /* Internet Explorer / Edge */
+  animation-name: bounceOut; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOut; /* Firefox */
-  -o-animation-name:      bounceOut; /* Opera */
+  -moz-animation-name: bounceOut; /* Firefox */
+  -o-animation-name: bounceOut; /* Opera */
 }

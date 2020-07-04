@@ -51,8 +51,8 @@
 }
 
 .lightSpeedOut {
-  animation-name:         lightSpeedOut; /* Internet Explorer / Edge */
+  animation-name: lightSpeedOut; /* Internet Explorer / Edge */
   -webkit-animation-name: lightSpeedOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    lightSpeedOut; /* Firefox */
-  -o-animation-name:      lightSpeedOut; /* Opera */
+  -moz-animation-name: lightSpeedOut; /* Firefox */
+  -o-animation-name: lightSpeedOut; /* Opera */
 }

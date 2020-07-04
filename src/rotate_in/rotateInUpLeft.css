@@ -59,8 +59,8 @@
 }
 
 .rotateInUpLeft {
-  animation-name:         rotateInUpLeft; /* Internet Explorer / Edge */
+  animation-name: rotateInUpLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateInUpLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateInUpLeft; /* Firefox */
-  -o-animation-name:      rotateInUpLeft; /* Opera */
+  -moz-animation-name: rotateInUpLeft; /* Firefox */
+  -o-animation-name: rotateInUpLeft; /* Opera */
 }

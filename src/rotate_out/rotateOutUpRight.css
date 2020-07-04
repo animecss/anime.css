@@ -59,8 +59,8 @@
 }
 
 .rotateOutUpRight {
-  animation-name:         rotateOutUpRight; /* Internet Explorer / Edge */
+  animation-name: rotateOutUpRight; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOutUpRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOutUpRight; /* Firefox */
-  -o-animation-name:      rotateOutUpRight; /* Opera */
+  -moz-animation-name: rotateOutUpRight; /* Firefox */
+  -o-animation-name: rotateOutUpRight; /* Opera */
 }

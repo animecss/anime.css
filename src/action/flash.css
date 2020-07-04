@@ -1,15 +1,19 @@
 @keyframes flash {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     opacity: 1;
   }
-  25%, 75% {
+
+  25%,
+  75% {
     opacity: 0;
   }
 }
 
 .flash {
-  animation-name:         flash; /* Internet Explorer / Edge */
+  animation-name: flash; /* Internet Explorer / Edge */
   -webkit-animation-name: flash; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flash; /* Firefox */
-  -o-animation-name:      flash; /* Opera */
+  -moz-animation-name: flash; /* Firefox */
+  -o-animation-name: flash; /* Opera */
 }

@@ -51,8 +51,8 @@
 }
 
 .rollIn {
-  animation-name:         rollIn; /* Internet Explorer / Edge */
+  animation-name: rollIn; /* Internet Explorer / Edge */
   -webkit-animation-name: rollIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rollIn; /* Firefox */
-  -o-animation-name:      rollIn; /* Opera */
+  -moz-animation-name: rollIn; /* Firefox */
+  -o-animation-name: rollIn; /* Opera */
 }
