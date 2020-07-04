@@ -8,15 +8,15 @@
  * Copyright (c) 2020 Anime.css
  */
 :root {
-  --anime-duration: 1s;
-  --anime-delay: 1s;
-  --anime-repeat: 1;
+  --duration: 1s;
+  --delay: 1s;
+  --repeat: 1;
 }
 .anime__animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-duration: var(--anime-duration);
-  animation-duration: var(--anime-duration);
+  -webkit-animation-duration: var(--duration);
+  animation-duration: var(--duration);
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -27,88 +27,110 @@
 .anime__animated.anime__repeat-1 {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  -webkit-animation-iteration-count: var(--anime-repeat);
-  animation-iteration-count: var(--anime-repeat);
+  -webkit-animation-iteration-count: var(--repeat);
+  animation-iteration-count: var(--repeat);
 }
 .anime__animated.anime__repeat-2 {
   -webkit-animation-iteration-count: calc(1 * 2);
   animation-iteration-count: calc(1 * 2);
-  -webkit-animation-iteration-count: calc(var(--anime-repeat) * 2);
-  animation-iteration-count: calc(var(--anime-repeat) * 2);
+  -webkit-animation-iteration-count: calc(var(--repeat) * 2);
+  animation-iteration-count: calc(var(--repeat) * 2);
 }
 .anime__animated.anime__repeat-3 {
   -webkit-animation-iteration-count: calc(1 * 3);
   animation-iteration-count: calc(1 * 3);
-  -webkit-animation-iteration-count: calc(var(--anime-repeat) * 3);
-  animation-iteration-count: calc(var(--anime-repeat) * 3);
+  -webkit-animation-iteration-count: calc(var(--repeat) * 3);
+  animation-iteration-count: calc(var(--repeat) * 3);
+}
+.anime__animated.anime__repeat-4 {
+  -webkit-animation-iteration-count: calc(1 * 4);
+  animation-iteration-count: calc(1 * 4);
+  -webkit-animation-iteration-count: calc(var(--repeat) * 4);
+  animation-iteration-count: calc(var(--repeat) * 4);
+}
+.anime__animated.anime__repeat-5 {
+  -webkit-animation-iteration-count: calc(1 * 5);
+  animation-iteration-count: calc(1 * 5);
+  -webkit-animation-iteration-count: calc(var(--repeat) * 5);
+  animation-iteration-count: calc(var(--repeat) * 5);
+}
+.anime__animated.anime__repeat-6 {
+  -webkit-animation-iteration-count: calc(1 * 6);
+  animation-iteration-count: calc(1 * 6);
+  -webkit-animation-iteration-count: calc(var(--repeat) * 6);
+  animation-iteration-count: calc(var(--repeat) * 6);
+}
+.anime__animated.anime__repeat-7 {
+  -webkit-animation-iteration-count: calc(1 * 7);
+  animation-iteration-count: calc(1 * 7);
+  -webkit-animation-iteration-count: calc(var(--repeat) * 7);
+  animation-iteration-count: calc(var(--repeat) * 7);
 }
 .anime__animated.anime__delay-1s {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-  -webkit-animation-delay: var(--anime-delay);
-  animation-delay: var(--anime-delay);
+  -webkit-animation-delay: var(--delay);
+  animation-delay: var(--delay);
 }
 .anime__animated.anime__delay-2s {
   -webkit-animation-delay: calc(1s * 2);
   animation-delay: calc(1s * 2);
-  -webkit-animation-delay: calc(var(--anime-delay) * 2);
-  animation-delay: calc(var(--anime-delay) * 2);
+  -webkit-animation-delay: calc(var(--delay) * 2);
+  animation-delay: calc(var(--delay) * 2);
 }
 .anime__animated.anime__delay-3s {
   -webkit-animation-delay: calc(1s * 3);
   animation-delay: calc(1s * 3);
-  -webkit-animation-delay: calc(var(--anime-delay) * 3);
-  animation-delay: calc(var(--anime-delay) * 3);
+  -webkit-animation-delay: calc(var(--delay) * 3);
+  animation-delay: calc(var(--delay) * 3);
 }
 .anime__animated.anime__delay-4s {
   -webkit-animation-delay: calc(1s * 4);
   animation-delay: calc(1s * 4);
-  -webkit-animation-delay: calc(var(--anime-delay) * 4);
-  animation-delay: calc(var(--anime-delay) * 4);
+  -webkit-animation-delay: calc(var(--delay) * 4);
+  animation-delay: calc(var(--delay) * 4);
 }
 .anime__animated.anime__delay-5s {
   -webkit-animation-delay: calc(1s * 5);
   animation-delay: calc(1s * 5);
-  -webkit-animation-delay: calc(var(--anime-delay) * 5);
-  animation-delay: calc(var(--anime-delay) * 5);
+  -webkit-animation-delay: calc(var(--delay) * 5);
+  animation-delay: calc(var(--delay) * 5);
 }
-.anime__animated.anime__faster {
-  -webkit-animation-duration: calc(1s / 2);
-  animation-duration: calc(1s / 2);
-  -webkit-animation-duration: calc(var(--anime-duration) / 2);
-  animation-duration: calc(var(--anime-duration) / 2);
+.anime__animated.anime__delay-6s {
+  -webkit-animation-delay: calc(1s * 6);
+  animation-delay: calc(1s * 6);
+  -webkit-animation-delay: calc(var(--delay) * 6);
+  animation-delay: calc(var(--delay) * 6);
+}
+.anime__animated.anime__delay-7s {
+  -webkit-animation-delay: calc(1s * 7);
+  animation-delay: calc(1s * 7);
+  -webkit-animation-delay: calc(var(--delay) * 7);
+  animation-delay: calc(var(--delay) * 7);
 }
 .anime__animated.anime__fast {
   -webkit-animation-duration: calc(1s * 0.8);
   animation-duration: calc(1s * 0.8);
-  -webkit-animation-duration: calc(var(--anime-duration) * 0.8);
-  animation-duration: calc(var(--anime-duration) * 0.8);
+  -webkit-animation-duration: calc(var(--duration) * 0.8);
+  animation-duration: calc(var(--duration) * 0.8);
+}
+.anime__animated.anime__faster {
+  -webkit-animation-duration: calc(1s / 2);
+  animation-duration: calc(1s / 2);
+  -webkit-animation-duration: calc(var(--duration) / 2);
+  animation-duration: calc(var(--duration) / 2);
 }
 .anime__animated.anime__slow {
   -webkit-animation-duration: calc(1s * 2);
   animation-duration: calc(1s * 2);
-  -webkit-animation-duration: calc(var(--anime-duration) * 2);
-  animation-duration: calc(var(--anime-duration) * 2);
+  -webkit-animation-duration: calc(var(--duration) * 2);
+  animation-duration: calc(var(--duration) * 2);
 }
 .anime__animated.anime__slower {
-  -webkit-animation-duration: calc(1s * 3);
-  animation-duration: calc(1s * 3);
-  -webkit-animation-duration: calc(var(--anime-duration) * 3);
-  animation-duration: calc(var(--anime-duration) * 3);
-}
-@media print, (prefers-reduced-motion: reduce) {
-  .anime__animated {
-    -webkit-animation-duration: 1ms !important;
-    animation-duration: 1ms !important;
-    -webkit-transition-duration: 1ms !important;
-    transition-duration: 1ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-    animation-iteration-count: 1 !important;
-  }
-
-  .anime__animated[class*='Out'] {
-    opacity: 0;
-  }
+  -webkit-animation-duration: calc(1s * 4);
+  animation-duration: calc(1s * 4);
+  -webkit-animation-duration: calc(var(--duration) * 4);
+  animation-duration: calc(var(--duration) * 4);
 }
 /* Internet Explorer / Edge */
 @keyframes fadeIn {
@@ -133,10 +155,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeIn {
-  animation-name:         fadeIn; /* Internet Explorer / Edge */
+  animation-name: fadeIn; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeIn; /* Firefox */
-  -o-animation-name:      fadeIn; /* Opera */
+  -moz-animation-name: fadeIn; /* Firefox */
+  -o-animation-name: fadeIn; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeInDown {
@@ -167,10 +189,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeInDown {
-  animation-name:         fadeInDown; /* Internet Explorer / Edge */
+  animation-name: fadeInDown; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeInDown; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeInDown; /* Firefox */
-  -o-animation-name:      fadeInDown; /* Opera */
+  -moz-animation-name: fadeInDown; /* Firefox */
+  -o-animation-name: fadeInDown; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeInLeft {
@@ -201,10 +223,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeInLeft {
-  animation-name:         fadeInLeft; /* Internet Explorer / Edge */
+  animation-name: fadeInLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeInLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeInLeft; /* Firefox */
-  -o-animation-name:      fadeInLeft; /* Opera */
+  -moz-animation-name: fadeInLeft; /* Firefox */
+  -o-animation-name: fadeInLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeInRight {
@@ -235,10 +257,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeInRight {
-  animation-name:         fadeInRight; /* Internet Explorer / Edge */
+  animation-name: fadeInRight; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeInRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeInRight; /* Firefox */
-  -o-animation-name:      fadeInRight; /* Opera */
+  -moz-animation-name: fadeInRight; /* Firefox */
+  -o-animation-name: fadeInRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeOut {
@@ -263,10 +285,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeOut {
-  animation-name:         fadeOut; /* Internet Explorer / Edge */
+  animation-name: fadeOut; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeOut; /* Firefox */
-  -o-animation-name:      fadeOut; /* Opera */
+  -moz-animation-name: fadeOut; /* Firefox */
+  -o-animation-name: fadeOut; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeOutDown {
@@ -297,10 +319,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeOutDown {
-  animation-name:         fadeOutDown; /* Internet Explorer / Edge */
+  animation-name: fadeOutDown; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeOutDown; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeOutDown; /* Firefox */
-  -o-animation-name:      fadeOutDown; /* Opera */
+  -moz-animation-name: fadeOutDown; /* Firefox */
+  -o-animation-name: fadeOutDown; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeOutLeft {
@@ -331,10 +353,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeOutLeft {
-  animation-name:         fadeOutLeft; /* Internet Explorer / Edge */
+  animation-name: fadeOutLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeOutLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeOutLeft; /* Firefox */
-  -o-animation-name:      fadeOutLeft; /* Opera */
+  -moz-animation-name: fadeOutLeft; /* Firefox */
+  -o-animation-name: fadeOutLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeOutRight {
@@ -365,10 +387,10 @@
 /* Firefox */
 /* Opera */
 .anime__fadeOutRight {
-  animation-name:         fadeOutRight; /* Internet Explorer / Edge */
+  animation-name: fadeOutRight; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeOutRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeOutRight; /* Firefox */
-  -o-animation-name:      fadeOutRight; /* Opera */
+  -moz-animation-name: fadeOutRight; /* Firefox */
+  -o-animation-name: fadeOutRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes fadeOutUp {
@@ -399,28 +421,28 @@
 /* Firefox */
 /* Opera */
 .anime__fadeOutUp {
-  animation-name:         fadeOutUp; /* Internet Explorer / Edge */
+  animation-name: fadeOutUp; /* Internet Explorer / Edge */
   -webkit-animation-name: fadeOutUp; /* Chrome, Safari and iOS */
-  -moz-animation-name:    fadeOutUp; /* Firefox */
-  -o-animation-name:      fadeOutUp; /* Opera */
+  -moz-animation-name: fadeOutUp; /* Firefox */
+  -o-animation-name: fadeOutUp; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceIn {
   0% {
     opacity: 0;
-    -webkit-transform: scale(.3);
-    transform: scale(.3);
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
   }
 
   50% {
-    opacity: 1; 
-    -webkit-transform: scale(1.05); 
+    opacity: 1;
+    -webkit-transform: scale(1.05);
     transform: scale(1.05);
   }
 
   70% {
-    -webkit-transform: scale(.9);
-    transform: scale(.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
   }
 
   100% {
@@ -432,16 +454,16 @@
 @-webkit-keyframes bounceIn {
   0% {
     opacity: 0;
-    -webkit-transform: scale(.3);
+    -webkit-transform: scale(0.3);
   }
 
   50% {
-    opacity: 1; 
+    opacity: 1;
     -webkit-transform: scale(1.05);
   }
 
   70% {
-    -webkit-transform: scale(.9);
+    -webkit-transform: scale(0.9);
   }
 
   100% {
@@ -451,10 +473,10 @@
 /* Firefox */
 /* Opera */
 .anime__bounceIn {
-  animation-name:         bounceIn; /* Internet Explorer / Edge */
+  animation-name: bounceIn; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceIn; /* Firefox */
-  -o-animation-name:      bounceIn; /* Opera */
+  -moz-animation-name: bounceIn; /* Firefox */
+  -o-animation-name: bounceIn; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceInDown {
@@ -503,10 +525,10 @@
 /* Firefox */
 /* Opera */
 .anime__bounceInDown {
-  animation-name:         bounceInDown; /* Internet Explorer / Edge */
+  animation-name: bounceInDown; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceInDown; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceInDown; /* Firefox */
-  -o-animation-name:      bounceInDown; /* Opera */
+  -moz-animation-name: bounceInDown; /* Firefox */
+  -o-animation-name: bounceInDown; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceInLeft {
@@ -555,10 +577,10 @@
 /* Firefox */
 /* Opera */
 .anime__bounceInLeft {
-  animation-name:         bounceInLeft; /* Internet Explorer / Edge */
+  animation-name: bounceInLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceInLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceInLeft; /* Firefox */
-  -o-animation-name:      bounceInLeft; /* Opera */
+  -moz-animation-name: bounceInLeft; /* Firefox */
+  -o-animation-name: bounceInLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceInRight {
@@ -607,10 +629,10 @@
 /* Firefox */
 /* Opera */
 .anime__bounceInRight {
-  animation-name:         bounceInRight; /* Internet Explorer / Edge */
+  animation-name: bounceInRight; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceInRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceInRight; /* Firefox */
-  -o-animation-name:      bounceInRight; /* Opera */
+  -moz-animation-name: bounceInRight; /* Firefox */
+  -o-animation-name: bounceInRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceOut {
@@ -620,8 +642,8 @@
   }
 
   25% {
-    -webkit-transform: scale(.95);
-    transform: scale(.95);
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
   }
 
   50% {
@@ -632,8 +654,8 @@
 
   100% {
     opacity: 0;
-    -webkit-transform: scale(.3);
-    transform: scale(.3);
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
   }
 }
 /* Chrome, Safari and iOS */
@@ -643,7 +665,7 @@
   }
 
   25% {
-    -webkit-transform: scale(.95);
+    -webkit-transform: scale(0.95);
   }
 
   50% {
@@ -653,16 +675,16 @@
 
   100% {
     opacity: 0;
-    -webkit-transform: scale(.3);
+    -webkit-transform: scale(0.3);
   }
 }
 /* Firefox */
 /* Opera */
 .anime__bounceOut {
-  animation-name:         bounceOut; /* Internet Explorer / Edge */
+  animation-name: bounceOut; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOut; /* Firefox */
-  -o-animation-name:      bounceOut; /* Opera */
+  -moz-animation-name: bounceOut; /* Firefox */
+  -o-animation-name: bounceOut; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceOutDown {
@@ -702,10 +724,10 @@
 /* Firefox */
 /* Opera */
 .anime__bounceOutDown {
-  animation-name:         bounceOutDown; /* Internet Explorer / Edge */
+  animation-name: bounceOutDown; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOutDown; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOutDown; /* Firefox */
-  -o-animation-name:      bounceOutDown; /* Opera */
+  -moz-animation-name: bounceOutDown; /* Firefox */
+  -o-animation-name: bounceOutDown; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceOutLeft {
@@ -745,16 +767,16 @@
 /* Firefox */
 /* Opera */
 .anime__bounceOutLeft {
-  animation-name:         bounceOutLeft; /* Internet Explorer / Edge */
+  animation-name: bounceOutLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOutLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOutLeft; /* Firefox */
-  -o-animation-name:      bounceOutLeft; /* Opera */
+  -moz-animation-name: bounceOutLeft; /* Firefox */
+  -o-animation-name: bounceOutLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceOutRight {
   0% {
     -webkit-transform: translateX(0);
-    transform: translateX(0); 
+    transform: translateX(0);
   }
 
   20% {
@@ -772,7 +794,7 @@
 /* Chrome, Safari and iOS */
 @-webkit-keyframes bounceOutRight {
   0% {
-    -webkit-transform: translateX(0); 
+    -webkit-transform: translateX(0);
   }
 
   20% {
@@ -788,10 +810,10 @@
 /* Firefox */
 /* Opera */
 .anime__bounceOutRight {
-  animation-name:         bounceOutRight; /* Internet Explorer / Edge */
+  animation-name: bounceOutRight; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOutRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOutRight; /* Firefox */
-  -o-animation-name:      bounceOutRight; /* Opera */
+  -moz-animation-name: bounceOutRight; /* Firefox */
+  -o-animation-name: bounceOutRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes bounceOutUp {
@@ -831,10 +853,10 @@
 /* Firefox */
 /* Opera */
 .anime__bounceOutUp {
-  animation-name:         bounceOutUp; /* Internet Explorer / Edge */
+  animation-name: bounceOutUp; /* Internet Explorer / Edge */
   -webkit-animation-name: bounceOutUp; /* Chrome, Safari and iOS */
-  -moz-animation-name:    bounceOutUp; /* Firefox */
-  -o-animation-name:      bounceOutUp; /* Opera */
+  -moz-animation-name: bounceOutUp; /* Firefox */
+  -o-animation-name: bounceOutUp; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes flipInX {
@@ -883,10 +905,10 @@
 /* Firefox */
 /* Opera */
 .anime__flipInX {
-  animation-name:         flipInX; /* Internet Explorer / Edge */
+  animation-name: flipInX; /* Internet Explorer / Edge */
   -webkit-animation-name: flipInX; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flipInX; /* Firefox */
-  -o-animation-name:      flipInX; /* Opera */
+  -moz-animation-name: flipInX; /* Firefox */
+  -o-animation-name: flipInX; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes flipInY {
@@ -935,10 +957,10 @@
 /* Firefox */
 /* Opera */
 .anime__flipInY {
-  animation-name:         flipInY; /* Internet Explorer / Edge */
+  animation-name: flipInY; /* Internet Explorer / Edge */
   -webkit-animation-name: flipInY; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flipInY; /* Firefox */
-  -o-animation-name:      flipInY; /* Opera */
+  -moz-animation-name: flipInY; /* Firefox */
+  -o-animation-name: flipInY; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes flipOutX {
@@ -952,7 +974,7 @@
     -webkit-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
     opacity: 0;
-  }   
+  }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes flipOutX {
@@ -969,10 +991,10 @@
 /* Firefox */
 /* Opera */
 .anime__flipOutX {
-  animation-name:         flipOutX; /* Internet Explorer / Edge */
+  animation-name: flipOutX; /* Internet Explorer / Edge */
   -webkit-animation-name: flipOutX; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flipOutX; /* Firefox */
-  -o-animation-name:      flipOutX; /* Opera */
+  -moz-animation-name: flipOutX; /* Firefox */
+  -o-animation-name: flipOutX; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes flipOutY {
@@ -1003,10 +1025,10 @@
 /* Firefox */
 /* Opera */
 .anime__flipOutY {
-  animation-name:         flipOutY; /* Internet Explorer / Edge */
+  animation-name: flipOutY; /* Internet Explorer / Edge */
   -webkit-animation-name: flipOutY; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flipOutY; /* Firefox */
-  -o-animation-name:      flipOutY; /* Opera */
+  -moz-animation-name: flipOutY; /* Firefox */
+  -o-animation-name: flipOutY; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rollIn {
@@ -1037,10 +1059,10 @@
 /* Firefox */
 /* Opera */
 .anime__rollIn {
-  animation-name:         rollIn; /* Internet Explorer / Edge */
+  animation-name: rollIn; /* Internet Explorer / Edge */
   -webkit-animation-name: rollIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rollIn; /* Firefox */
-  -o-animation-name:      rollIn; /* Opera */
+  -moz-animation-name: rollIn; /* Firefox */
+  -o-animation-name: rollIn; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rollOut {
@@ -1071,10 +1093,10 @@
 /* Firefox */
 /* Opera */
 .anime__rollOut {
-  animation-name:         rollOut; /* Internet Explorer / Edge */
+  animation-name: rollOut; /* Internet Explorer / Edge */
   -webkit-animation-name: rollOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rollOut; /* Firefox */
-  -o-animation-name:      rollOut; /* Opera */
+  -moz-animation-name: rollOut; /* Firefox */
+  -o-animation-name: rollOut; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateIn {
@@ -1111,10 +1133,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateIn {
-  animation-name:         rotateIn; /* Internet Explorer / Edge */
+  animation-name: rotateIn; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateIn; /* Firefox */
-  -o-animation-name:      rotateIn; /* Opera */
+  -moz-animation-name: rotateIn; /* Firefox */
+  -o-animation-name: rotateIn; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateInUpLeft {
@@ -1151,50 +1173,50 @@
 /* Firefox */
 /* Opera */
 .anime__rotateInUpLeft {
-  animation-name:         rotateInUpLeft; /* Internet Explorer / Edge */
+  animation-name: rotateInUpLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateInUpLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateInUpLeft; /* Firefox */
-  -o-animation-name:      rotateInUpLeft; /* Opera */
+  -moz-animation-name: rotateInUpLeft; /* Firefox */
+  -o-animation-name: rotateInUpLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateInUpRight {
-  0% { 
-    -webkit-transform-origin: right bottom; 
+  0% {
+    -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
     -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg); 
-    opacity: 0; 
+    transform: rotate(-90deg);
+    opacity: 0;
   }
 
-  100% { 
-    -webkit-transform-origin: right bottom; 
-    transform-origin: right bottom; 
-    -webkit-transform: rotate(0); 
-    transform: rotate(0); 
-    opacity: 1; 
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
   }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes rotateInUpRight {
-  0% { 
+  0% {
     -webkit-transform-origin: right bottom;
-    -webkit-transform: rotate(-90deg); 
-    opacity: 0; 
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
   }
 
-  100% { 
-    -webkit-transform-origin: right bottom; 
-    -webkit-transform: rotate(0); 
-    opacity: 1; 
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
   }
 }
 /* Firefox */
 /* Opera */
 .anime__rotateInUpRight {
-  animation-name:         rotateInUpRight; /* Internet Explorer / Edge */
+  animation-name: rotateInUpRight; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateInUpRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateInUpRight; /* Firefox */
-  -o-animation-name:      rotateInUpRight; /* Opera */
+  -moz-animation-name: rotateInUpRight; /* Firefox */
+  -o-animation-name: rotateInUpRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateInDownLeft {
@@ -1231,10 +1253,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateInDownLeft {
-  animation-name:         rotateInDownLeft; /* Internet Explorer / Edge */
+  animation-name: rotateInDownLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateInDownLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateInDownLeft; /* Firefox */
-  -o-animation-name:      rotateInDownLeft; /* Opera */
+  -moz-animation-name: rotateInDownLeft; /* Firefox */
+  -o-animation-name: rotateInDownLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateInDownRight {
@@ -1271,10 +1293,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateInDownRight {
-  animation-name:         rotateInDownRight; /* Internet Explorer / Edge */
+  animation-name: rotateInDownRight; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateInDownRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateInDownRight; /* Firefox */
-  -o-animation-name:      rotateInDownRight; /* Opera */
+  -moz-animation-name: rotateInDownRight; /* Firefox */
+  -o-animation-name: rotateInDownRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateOut {
@@ -1315,10 +1337,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateOut {
-  animation-name:         rotateOut; /* Internet Explorer / Edge */
+  animation-name: rotateOut; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOut; /* Firefox */
-  -o-animation-name:      rotateOut; /* Opera */
+  -moz-animation-name: rotateOut; /* Firefox */
+  -o-animation-name: rotateOut; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateOutUpLeft {
@@ -1353,10 +1375,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateOutUpLeft {
-  animation-name:         rotateOutUpLeft; /* Internet Explorer / Edge */
+  animation-name: rotateOutUpLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOutUpLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOutUpLeft; /* Firefox */
-  -o-animation-name:      rotateOutUpLeft; /* Opera */
+  -moz-animation-name: rotateOutUpLeft; /* Firefox */
+  -o-animation-name: rotateOutUpLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateOutUpRight {
@@ -1393,10 +1415,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateOutUpRight {
-  animation-name:         rotateOutUpRight; /* Internet Explorer / Edge */
+  animation-name: rotateOutUpRight; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOutUpRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOutUpRight; /* Firefox */
-  -o-animation-name:      rotateOutUpRight; /* Opera */
+  -moz-animation-name: rotateOutUpRight; /* Firefox */
+  -o-animation-name: rotateOutUpRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateOutDownLeft {
@@ -1404,7 +1426,7 @@
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
     -webkit-transform: rotate(0);
-    transform: rotate(0); 
+    transform: rotate(0);
     opacity: 1;
   }
 
@@ -1420,7 +1442,7 @@
 @-webkit-keyframes rotateOutDownLeft {
   0% {
     -webkit-transform-origin: left bottom;
-    -webkit-transform: rotate(0); 
+    -webkit-transform: rotate(0);
     opacity: 1;
   }
 
@@ -1433,10 +1455,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateOutDownLeft {
-  animation-name:         rotateOutDownLeft; /* Internet Explorer / Edge */
+  animation-name: rotateOutDownLeft; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOutDownLeft; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOutDownLeft; /* Firefox */
-  -o-animation-name:      rotateOutDownLeft; /* Opera */
+  -moz-animation-name: rotateOutDownLeft; /* Firefox */
+  -o-animation-name: rotateOutDownLeft; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes rotateOutDownRight {
@@ -1473,10 +1495,10 @@
 /* Firefox */
 /* Opera */
 .anime__rotateOutDownRight {
-  animation-name:         rotateOutDownRight; /* Internet Explorer / Edge */
+  animation-name: rotateOutDownRight; /* Internet Explorer / Edge */
   -webkit-animation-name: rotateOutDownRight; /* Chrome, Safari and iOS */
-  -moz-animation-name:    rotateOutDownRight; /* Firefox */
-  -o-animation-name:      rotateOutDownRight; /* Opera */
+  -moz-animation-name: rotateOutDownRight; /* Firefox */
+  -o-animation-name: rotateOutDownRight; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes lightSpeedIn {
@@ -1529,10 +1551,10 @@
 /* Firefox */
 /* Opera */
 .anime__lightSpeedIn {
-  animation-name:         lightSpeedIn; /* Internet Explorer / Edge */
+  animation-name: lightSpeedIn; /* Internet Explorer / Edge */
   -webkit-animation-name: lightSpeedIn; /* Chrome, Safari and iOS */
-  -moz-animation-name:    lightSpeedIn; /* Firefox */
-  -o-animation-name:      lightSpeedIn; /* Opera */
+  -moz-animation-name: lightSpeedIn; /* Firefox */
+  -o-animation-name: lightSpeedIn; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes lightSpeedOut {
@@ -1563,32 +1585,40 @@
 /* Firefox */
 /* Opera */
 .anime__lightSpeedOut {
-  animation-name:         lightSpeedOut; /* Internet Explorer / Edge */
+  animation-name: lightSpeedOut; /* Internet Explorer / Edge */
   -webkit-animation-name: lightSpeedOut; /* Chrome, Safari and iOS */
-  -moz-animation-name:    lightSpeedOut; /* Firefox */
-  -o-animation-name:      lightSpeedOut; /* Opera */
+  -moz-animation-name: lightSpeedOut; /* Firefox */
+  -o-animation-name: lightSpeedOut; /* Opera */
 }
 @-webkit-keyframes flash {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     opacity: 1;
   }
-  25%, 75% {
+
+  25%,
+  75% {
     opacity: 0;
   }
 }
 @keyframes flash {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     opacity: 1;
   }
-  25%, 75% {
+
+  25%,
+  75% {
     opacity: 0;
   }
 }
 .anime__flash {
-  animation-name:         flash; /* Internet Explorer / Edge */
+  animation-name: flash; /* Internet Explorer / Edge */
   -webkit-animation-name: flash; /* Chrome, Safari and iOS */
-  -moz-animation-name:    flash; /* Firefox */
-  -o-animation-name:      flash; /* Opera */
+  -moz-animation-name: flash; /* Firefox */
+  -o-animation-name: flash; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes hinge {
@@ -1601,7 +1631,8 @@
     animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     -webkit-transform: rotate(80deg);
     transform: rotate(80deg);
     -webkit-transform-origin: top left;
@@ -1619,8 +1650,8 @@
     animation-timing-function: ease-in-out;
   }
 
-  80% { 
-    -webkit-transform: rotate(60deg) translateY(0); 
+  80% {
+    -webkit-transform: rotate(60deg) translateY(0);
     transform: rotate(60deg) translateY(0);
     opacity: 1;
     -webkit-transform-origin: top left;
@@ -1643,7 +1674,8 @@
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  20%,
+  60% {
     -webkit-transform: rotate(80deg);
     -webkit-transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
@@ -1655,7 +1687,7 @@
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  80% { 
+  80% {
     -webkit-transform: rotate(60deg) translateY(0);
     opacity: 1;
     -webkit-transform-origin: top left;
@@ -1671,160 +1703,414 @@
 /* Firefox */
 /* Opera */
 .anime__hinge {
-  animation-name:         hinge; /* Internet Explorer / Edge */
+  animation-name: hinge; /* Internet Explorer / Edge */
   -webkit-animation-name: hinge; /* Chrome, Safari and iOS */
-  -moz-animation-name:    hinge; /* Firefox */
-  -o-animation-name:      hinge; /* Opera */
+  -moz-animation-name: hinge; /* Firefox */
+  -o-animation-name: hinge; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes pulse {
-  0% { -webkit-transform: scale(1); transform: scale(1); }
-  50% { -webkit-transform: scale(1.1); transform: scale(1.1); }
-  100% { -webkit-transform: scale(1); transform: scale(1); }
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes pulse {
-  0% { -webkit-transform: scale(1); }
-  50% { -webkit-transform: scale(1.1); }
-  100% { -webkit-transform: scale(1); }
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
 }
 /* Firefox */
 /* Opera */
 .anime__pulse {
-  animation-name:         pulse; /* Internet Explorer / Edge */
+  animation-name: pulse; /* Internet Explorer / Edge */
   -webkit-animation-name: pulse; /* Chrome, Safari and iOS */
-  -moz-animation-name:    pulse; /* Firefox */
-  -o-animation-name:      pulse; /* Opera */
+  -moz-animation-name: pulse; /* Firefox */
+  -o-animation-name: pulse; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes wobble {
-  0% { -webkit-transform: translateX(0%); transform: translateX(0%); }
-  15% { -webkit-transform: translateX(-25%) rotate(-5deg); transform: translateX(-25%) rotate(-5deg); }
-  30% { -webkit-transform: translateX(20%) rotate(3deg); transform: translateX(20%) rotate(3deg); }
-  45% { -webkit-transform: translateX(-15%) rotate(-3deg); transform: translateX(-15%) rotate(-3deg); }
-  60% { -webkit-transform: translateX(10%) rotate(2deg); transform: translateX(10%) rotate(2deg); }
-  75% { -webkit-transform: translateX(-5%) rotate(-1deg); transform: translateX(-5%) rotate(-1deg); }
-  100% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  15% {
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+    transform: translateX(-25%) rotate(-5deg);
+  }
+
+  30% {
+    -webkit-transform: translateX(20%) rotate(3deg);
+    transform: translateX(20%) rotate(3deg);
+  }
+
+  45% {
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+    transform: translateX(-15%) rotate(-3deg);
+  }
+
+  60% {
+    -webkit-transform: translateX(10%) rotate(2deg);
+    transform: translateX(10%) rotate(2deg);
+  }
+
+  75% {
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+    transform: translateX(-5%) rotate(-1deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes wobble {
-  0% { -webkit-transform: translateX(0%); }
-  15% { -webkit-transform: translateX(-25%) rotate(-5deg); }
-  30% { -webkit-transform: translateX(20%) rotate(3deg); }
-  45% { -webkit-transform: translateX(-15%) rotate(-3deg); }
-  60% { -webkit-transform: translateX(10%) rotate(2deg); }
-  75% { -webkit-transform: translateX(-5%) rotate(-1deg); }
-  100% { -webkit-transform: translateX(0%); }
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+
+  15% {
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+  }
+
+  30% {
+    -webkit-transform: translateX(20%) rotate(3deg);
+  }
+
+  45% {
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+  }
+
+  60% {
+    -webkit-transform: translateX(10%) rotate(2deg);
+  }
+
+  75% {
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(0%);
+  }
 }
 /* Firefox */
 /* Opera */
 .anime__wobble {
-  animation-name:         wobble; /* Internet Explorer / Edge */
+  animation-name: wobble; /* Internet Explorer / Edge */
   -webkit-animation-name: wobble; /* Chrome, Safari and iOS */
-  -moz-animation-name:    wobble; /* Firefox */
-  -o-animation-name:      wobble; /* Opera */
+  -moz-animation-name: wobble; /* Firefox */
+  -o-animation-name: wobble; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes wiggle {
-  0% { -webkit-transform: skewX(9deg); transform: skewX(9deg); }
-  10% { -webkit-transform: skewX(-8deg); transform: skewX(-8deg); }
-  20% { -webkit-transform: skewX(7deg); transform: skewX(7deg); }
-  30% { -webkit-transform: skewX(-6deg); transform: skewX(-6deg); }
-  40% { -webkit-transform: skewX(5deg); transform: skewX(5deg); }
-  50% { -webkit-transform: skewX(-4deg); transform: skewX(-4deg); }
-  60% { -webkit-transform: skewX(3deg); transform: skewX(3deg); }
-  70% { -webkit-transform: skewX(-2deg); transform: skewX(-2deg); }
-  80% { -webkit-transform: skewX(1deg); transform: skewX(1deg); }
-  90% { -webkit-transform: skewX(0deg); transform: skewX(0deg); }
-  100% { -webkit-transform: skewX(0deg); transform: skewX(0deg); }
+  0% {
+    -webkit-transform: skewX(9deg);
+    transform: skewX(9deg);
+  }
+
+  10% {
+    -webkit-transform: skewX(-8deg);
+    transform: skewX(-8deg);
+  }
+
+  20% {
+    -webkit-transform: skewX(7deg);
+    transform: skewX(7deg);
+  }
+
+  30% {
+    -webkit-transform: skewX(-6deg);
+    transform: skewX(-6deg);
+  }
+
+  40% {
+    -webkit-transform: skewX(5deg);
+    transform: skewX(5deg);
+  }
+
+  50% {
+    -webkit-transform: skewX(-4deg);
+    transform: skewX(-4deg);
+  }
+
+  60% {
+    -webkit-transform: skewX(3deg);
+    transform: skewX(3deg);
+  }
+
+  70% {
+    -webkit-transform: skewX(-2deg);
+    transform: skewX(-2deg);
+  }
+
+  80% {
+    -webkit-transform: skewX(1deg);
+    transform: skewX(1deg);
+  }
+
+  90% {
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+
+  100% {
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes wiggle {
-  0% { -webkit-transform: skewX(9deg); }
-  10% { -webkit-transform: skewX(-8deg); }
-  20% { -webkit-transform: skewX(7deg); }
-  30% { -webkit-transform: skewX(-6deg); }
-  40% { -webkit-transform: skewX(5deg); }
-  50% { -webkit-transform: skewX(-4deg); }
-  60% { -webkit-transform: skewX(3deg); }
-  70% { -webkit-transform: skewX(-2deg); }
-  80% { -webkit-transform: skewX(1deg); }
-  90% { -webkit-transform: skewX(0deg); }
-  100% { -webkit-transform: skewX(0deg); }
+  0% {
+    -webkit-transform: skewX(9deg);
+  }
+
+  10% {
+    -webkit-transform: skewX(-8deg);
+  }
+
+  20% {
+    -webkit-transform: skewX(7deg);
+  }
+
+  30% {
+    -webkit-transform: skewX(-6deg);
+  }
+
+  40% {
+    -webkit-transform: skewX(5deg);
+  }
+
+  50% {
+    -webkit-transform: skewX(-4deg);
+  }
+
+  60% {
+    -webkit-transform: skewX(3deg);
+  }
+
+  70% {
+    -webkit-transform: skewX(-2deg);
+  }
+
+  80% {
+    -webkit-transform: skewX(1deg);
+  }
+
+  90% {
+    -webkit-transform: skewX(0deg);
+  }
+
+  100% {
+    -webkit-transform: skewX(0deg);
+  }
 }
 /* Firefox */
 /* Opera */
 .anime__wiggle {
-  animation-name:         wiggle; /* Internet Explorer / Edge */
+  animation-name: wiggle; /* Internet Explorer / Edge */
   -webkit-animation-name: wiggle; /* Chrome, Safari and iOS */
-  -moz-animation-name:    wiggle; /* Firefox */
-  -o-animation-name:      wiggle; /* Opera */
+  -moz-animation-name: wiggle; /* Firefox */
+  -o-animation-name: wiggle; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes shake {
-  0%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
-  20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes shake {
-  0%, 100% { -webkit-transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); }
-  20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); }
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+  }
 }
 /* Firefox */
 /* Opera */
 .anime__shake {
-  animation-name:         shake; /* Internet Explorer / Edge */
+  animation-name: shake; /* Internet Explorer / Edge */
   -webkit-animation-name: shake; /* Chrome, Safari and iOS */
-  -moz-animation-name:    shake; /* Firefox */
-  -o-animation-name:      shake; /* Opera */
+  -moz-animation-name: shake; /* Firefox */
+  -o-animation-name: shake; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes swing {
-  20% { -webkit-transform: rotate(15deg); transform: rotate(15deg); }
-  40% { -webkit-transform: rotate(-10deg); transform: rotate(-10deg); }
-  60% { -webkit-transform: rotate(5deg); transform: rotate(5deg); }
-  80% { -webkit-transform: rotate(-5deg); transform: rotate(-5deg); }
-  100% { -webkit-transform: rotate(0deg); transform: rotate(0deg); } 
+  20% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes swing {
-  20% { -webkit-transform: rotate(15deg); }
-  40% { -webkit-transform: rotate(-10deg); }
-  60% { -webkit-transform: rotate(5deg); }
-  80% { -webkit-transform: rotate(-5deg); }
-  100% { -webkit-transform: rotate(0deg); }
+  20% {
+    -webkit-transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
 }
 /* Firefox */
 /* Opera */
 .anime__swing {
-  animation-name:         swing; /* Internet Explorer / Edge */
+  animation-name: swing; /* Internet Explorer / Edge */
   -webkit-animation-name: swing; /* Chrome, Safari and iOS */
-  -moz-animation-name:    swing; /* Firefox */
-  -o-animation-name:      swing; /* Opera */
+  -moz-animation-name: swing; /* Firefox */
+  -o-animation-name: swing; /* Opera */
 }
 /* Internet Explorer / Edge */
 @keyframes tada {
-  0% { -webkit-transform: scale(1); transform: scale(1); }
-  10%, 20% { -webkit-transform: scale(0.9) rotate(-3deg); transform: scale(0.9) rotate(-3deg); }
-  30%, 50%, 70%, 90% { -webkit-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }
-  40%, 60%, 80% { -webkit-transform: scale(1.1) rotate(-3deg); transform: scale(1.1) rotate(-3deg); }
-  100% { -webkit-transform: scale(1) rotate(0); transform: scale(1) rotate(0); }
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
 }
 /* Chrome, Safari and iOS */
 @-webkit-keyframes tada {
-  0% { -webkit-transform: scale(1); }
-  10%, 20% { -webkit-transform: scale(0.9) rotate(-3deg); }
-  30%, 50%, 70%, 90% { -webkit-transform: scale(1.1) rotate(3deg); }
-  40%, 60%, 80% { -webkit-transform: scale(1.1) rotate(-3deg); }
-  100% { -webkit-transform: scale(1) rotate(0); }
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+  }
 }
 /* Firefox */
 /* Opera */
 .anime__tada {
-  animation-name:         tada; /* Internet Explorer / Edge */
+  animation-name: tada; /* Internet Explorer / Edge */
   -webkit-animation-name: tada; /* Chrome, Safari and iOS */
-  -moz-animation-name:    tada; /* Firefox */
-  -o-animation-name:      tada; /* Opera */
+  -moz-animation-name: tada; /* Firefox */
+  -o-animation-name: tada; /* Opera */
 }

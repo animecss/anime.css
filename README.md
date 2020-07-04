@@ -170,4 +170,16 @@ The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow
   </body>
 </html>
 
+@media print, (prefers-reduced-motion: reduce) {
+  .animated {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .animated[class*='Out'] {
+    opacity: 0;
+  }
+}
+
 -->
