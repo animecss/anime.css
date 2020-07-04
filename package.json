@@ -15,9 +15,9 @@
     "prefix": "anime__"
   },
   "scripts": {
+    "dev": "npx postcss src/anime.css -o anime.css --no-map --env development -w",
     "start": "npm-run-all raw prod compat",
     "compat": "npx postcss src/anime.css -o anime.compat.css --no-map --env compat",
-    "dev": "npx postcss src/anime.css -o anime.css --no-map --env development -w",
     "raw": "npx postcss src/anime.css -o anime.css --no-map --env development",
     "prod": "npx postcss src/anime.css -o anime.min.css --no-map --env production",
     "format": "prettier --write \"**/*.{js,json,md,css}\"",
