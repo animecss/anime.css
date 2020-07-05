@@ -28,7 +28,7 @@ or add it directly to your webpage:
 <head>
   <link
     rel="stylesheet"
-    href="https://unpkg.com/anime.css@0.0.1/anime.min.css"
+    href="https://unpkg.com/anime.css@1.0.1/anime.min.css"
   />
 </head>
 ```
