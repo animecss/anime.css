@@ -22,16 +22,16 @@ npm install anime.css --save
 yarn add anime.css
 ```
 
-<!-- or add it directly to your webpage:
+or add it directly to your webpage:
 
 ```js
 <head>
   <link
     rel="stylesheet"
-    href="anime.min.css"
+    href="https://unpkg.com/anime.css@0.0.1/anime.min.css"
   />
 </head>
-``` -->
+```
 
 ## Usage
 
